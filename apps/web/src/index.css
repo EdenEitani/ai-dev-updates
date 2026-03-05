@@ -720,6 +720,13 @@ ul, li {
   }
 }
 
+/* ===========================
+   Mobile filter toggle
+   =========================== */
+.filters-toggle {
+  display: none; /* hidden on desktop */
+}
+
 @media (max-width: 700px) {
   .layout {
     flex-direction: column;
@@ -728,15 +735,77 @@ ul, li {
 
   .sidebar-wrapper {
     width: 100%;
+    margin-top: 12px;
   }
 
-  .sidebar {
-    position: static;
-    max-height: none;
+  /* Show the toggle button only on mobile */
+  .filters-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 14px;
+    background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .filters-toggle:hover {
+    background: var(--bg-hover);
+  }
+
+  .filters-toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .filters-toggle-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .filters-toggle-chevron {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+  }
+
+  /* Collapsible panel — hidden by default on mobile */
+  .sidebar-collapsible {
+    display: none;
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    background: var(--bg-surface);
+    overflow: hidden;
+  }
+
+  .sidebar-collapsible.open {
+    display: block;
+  }
+
+  .sidebar-collapsible .sidebar {
+    position: static;
+    max-height: 60vh;
+    overflow-y: auto;
+    border: none;
+    border-radius: 0;
     padding: 12px;
-    margin-top: 12px;
+    margin: 0;
   }
 
   .feed-toolbar {
@@ -752,6 +821,13 @@ ul, li {
   .sort-tab {
     flex: 1;
     text-align: center;
+  }
+}
+
+/* On desktop, always show sidebar normally */
+@media (min-width: 701px) {
+  .sidebar-collapsible {
+    display: block !important;
   }
 }
 
