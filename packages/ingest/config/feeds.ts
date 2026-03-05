@@ -79,7 +79,7 @@ export const REDDIT_SOURCES: RedditConfig[] = [
   { subreddit: 'OpenAI', tags: ['openai'] },
   { subreddit: 'ClaudeAI', tags: ['anthropic'] },
   { subreddit: 'LangChain', tags: ['langchain'] },
-  { subreddit: 'ArtificialIntelligence' },
+  { subreddit: 'artificial' },
 ]
 
 export const DATA_DIR = '../../data'
