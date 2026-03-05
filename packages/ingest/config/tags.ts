@@ -15,11 +15,22 @@ export const TAG_RULES: TagRule[] = [
   { tag: 'langchain', category: 'tools', keywords: ['langchain', 'langgraph', 'langsmith'], domains: ['langchain.dev', 'langsmith.com'], subreddits: ['LangChain'] },
   { tag: 'llama', category: 'tools', keywords: ['llama', 'llama2', 'llama3', 'meta ai', 'ollama'], subreddits: ['LocalLLaMA'] },
   { tag: 'huggingface', category: 'tools', keywords: ['hugging face', 'huggingface', 'transformers', 'diffusers', 'spaces'], domains: ['huggingface.co'] },
-  { tag: 'cursor', category: 'tools', keywords: ['cursor ide', 'cursor editor', 'cursor ai'] },
+  { tag: 'cursor', category: 'tools', keywords: ['cursor ide', 'cursor editor', 'cursor ai', ' cursor '], domains: ['cursor.com', 'changelog.cursor.com'], subreddits: ['cursor'] },
   { tag: 'claude-code', category: 'tools', keywords: ['claude code', 'claude-code'] },
   { tag: 'vercel-ai-sdk', category: 'tools', keywords: ['vercel ai', 'ai sdk', 'ai/sdk', 'next.js ai'], domains: ['vercel.com'] },
+  { tag: 'v0', category: 'tools', keywords: ['v0.dev', 'v0 by vercel', 'vercel v0'] },
   { tag: 'pinecone', category: 'tools', keywords: ['pinecone'], domains: ['pinecone.io'] },
   { tag: 'supabase', category: 'tools', keywords: ['supabase'], domains: ['supabase.com'] },
+  // ── Vibe-coding tools ──
+  { tag: 'lovable', category: 'tools', keywords: ['lovable', 'lovable.dev'], domains: ['lovable.dev'] },
+  { tag: 'bolt', category: 'tools', keywords: ['bolt.new', 'bolt ai', 'stackblitz ai'], domains: ['bolt.new', 'stackblitz.com'] },
+  { tag: 'replit', category: 'tools', keywords: ['replit', 'replit agent'], domains: ['replit.com', 'blog.replit.com'], subreddits: ['replit'] },
+  { tag: 'windsurf', category: 'tools', keywords: ['windsurf', 'codeium', 'windsurfer'], domains: ['codeium.com', 'windsurf.com'] },
+  { tag: 'base44', category: 'tools', keywords: ['base44'], domains: ['base44.com'] },
+  { tag: 'copilot', category: 'tools', keywords: ['github copilot', 'copilot chat', 'copilot workspace'], domains: ['github.blog'] },
+  { tag: 'devin', category: 'tools', keywords: ['devin', 'cognition ai', 'cognition labs'], domains: ['cognition.ai'] },
+  { tag: 'aider', category: 'tools', keywords: ['aider', 'aider.chat'], domains: ['aider.chat'] },
+  { tag: 'continue', category: 'tools', keywords: ['continue.dev', 'continue ai'], domains: ['continue.dev'] },
 
   // --- industry ---
   { tag: 'fintech', category: 'industry', keywords: ['fintech', 'finance', 'banking', 'payments', 'trading', 'investment', 'hedge fund'] },

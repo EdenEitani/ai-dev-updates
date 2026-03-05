@@ -2,6 +2,7 @@ import { useItems } from './hooks/useItems'
 import { Header } from './components/Header'
 import { Sidebar } from './components/Sidebar'
 import { Feed } from './components/Feed'
+import { LearnSection } from './components/LearnSection'
 
 export default function App() {
   const store = useItems()
@@ -20,6 +21,7 @@ export default function App() {
           />
         </aside>
         <main className="feed-wrapper">
+          <LearnSection items={store.items} />
           <Feed
             items={store.filtered}
             loading={store.loading}
