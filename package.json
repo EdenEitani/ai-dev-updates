@@ -1,0 +1,22 @@
+{
+  "name": "ai-dev-updates",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "ingest": "pnpm --filter ingest run start",
+    "build:web": "pnpm --filter web build",
+    "build": "pnpm ingest && pnpm build:web",
+    "dev": "pnpm --filter web dev",
+    "deploy:cf": "wrangler pages deploy apps/web/dist --project-name ai-dev-updates",
+    "inspect": "pnpm --filter ingest exec tsx ../../scripts/build-data.ts",
+    "typecheck": "pnpm --recursive run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "wrangler": "^3.57.0"
+  }
+}
