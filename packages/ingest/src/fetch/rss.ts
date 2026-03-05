@@ -41,7 +41,8 @@ export async function fetchRss(feed: FeedConfig): Promise<RawItem[]> {
     console.log(`  [rss] fetching ${feed.name}...`)
     const result = await parser.parseURL(feed.url)
 
-    return result.items
+    const items = feed.limit ? result.items.slice(0, feed.limit) : result.items
+    return items
       .filter((item) => item.title && (item.link || item.guid))
       .map((item) => {
         const rawSummary =

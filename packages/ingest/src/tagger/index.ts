@@ -31,12 +31,16 @@ export function tagItem(item: Item, sourceTags: string[] = []): Tags {
   const tags: Tags = { tools: [], industry: [], topic: [], type: [] }
   const added = new Set<string>()
 
-  // Apply source tags (from feed config)
+  // Apply source tags (from feed config) — includes both tool and type tags like 'release'
   for (const st of sourceTags) {
     const rule = TAG_RULES.find((r) => r.tag === st && !added.has(r.tag))
     if (rule) {
       tags[rule.category].push(rule.tag)
       added.add(rule.tag)
+    } else if (st === 'release' && !added.has('release')) {
+      // GitHub release feeds set 'release' directly as a source tag
+      tags.type.push('release')
+      added.add('release')
     }
   }
 

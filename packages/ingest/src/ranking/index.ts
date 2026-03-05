@@ -33,11 +33,18 @@ function keywordMultiplier(item: Item): number {
   return 1 + Math.min(hits * 0.15, 0.75)
 }
 
+function sourceMultiplier(item: Item): number {
+  // Official RSS sources (blogs, changelogs, GitHub releases) rank above social posts
+  if (item.source === 'rss') return 1.3
+  return 1.0
+}
+
 export function rankItem(item: Item): number {
   return (
     recencyMultiplier(item.publishedAt) *
     engagementMultiplier(item) *
-    keywordMultiplier(item)
+    keywordMultiplier(item) *
+    sourceMultiplier(item)
   )
 }
 

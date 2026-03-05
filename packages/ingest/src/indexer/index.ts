@@ -54,7 +54,7 @@ export function writeIndexes(items: Item[], existingItems: Item[]): void {
       (a, b) =>
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
     )
-    .slice(0, 500)
+    .slice(0, 1000)
 
   const tagIndex = buildTagIndex(allItems)
   const recentIds = allItems.slice(0, 100).map((i) => i.id)
