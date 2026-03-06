@@ -44,7 +44,7 @@ export function useItems(): UseItemsResult {
   const [error, setError] = useState<string | null>(null)
   const [activeFilters, setActiveFilters] = useState<ActiveFilters>(EMPTY_FILTERS)
   const [searchQuery, setSearchQuery] = useState('')
-  const [sortMode, setSortMode] = useState<SortMode>('newest')
+  const [sortMode, setSortMode] = useState<SortMode>('top')
 
   useEffect(() => {
     async function load() {

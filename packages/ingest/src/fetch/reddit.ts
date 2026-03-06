@@ -33,7 +33,7 @@ export async function fetchReddit(config: RedditConfig): Promise<RawItem[]> {
     console.log(`  [reddit] fetching r/${subreddit}...`)
 
     const res = await fetch(
-      `https://www.reddit.com/r/${subreddit}/hot.json?limit=25&raw_json=1`,
+      `https://www.reddit.com/r/${subreddit}/hot.json?limit=50&raw_json=1`,
       {
         headers: {
           'User-Agent': USER_AGENT,
@@ -51,7 +51,7 @@ export async function fetchReddit(config: RedditConfig): Promise<RawItem[]> {
 
     return json.data.children
       .map((post) => post.data)
-      .filter((d) => !d.stickied && !d.over_18 && d.title && d.url)
+      .filter((d) => !d.stickied && !d.over_18 && d.title && d.url && d.score >= 20)
       .map((d) => ({
         title: d.title.slice(0, 300),
         url: d.is_self

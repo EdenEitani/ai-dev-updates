@@ -200,6 +200,36 @@ export const RSS_FEEDS: FeedConfig[] = [
     limit: 10,
   },
 
+  // ── Business / Investment AI News ────────────────────────────
+  {
+    name: 'Reuters Technology',
+    url: 'https://feeds.reuters.com/reuters/technologyNews',
+    type: 'rss',
+    tags: [],
+    limit: 15,
+  },
+  {
+    name: 'Wired AI',
+    url: 'https://www.wired.com/feed/tag/artificial-intelligence/latest/rss',
+    type: 'rss',
+    tags: [],
+    limit: 10,
+  },
+  {
+    name: 'Fortune Technology',
+    url: 'https://fortune.com/feed/fortune-feeds/?id=3230629',
+    type: 'rss',
+    tags: [],
+    limit: 10,
+  },
+  {
+    name: 'CNBC AI',
+    url: 'https://www.cnbc.com/id/100727362/device/rss/rss.html',
+    type: 'rss',
+    tags: [],
+    limit: 10,
+  },
+
   // ── Developer Communities ─────────────────────────────────────
   {
     name: 'Hacker News Frontpage',
