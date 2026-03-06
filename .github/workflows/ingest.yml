@@ -2,7 +2,7 @@ name: Ingest AI News
 
 on:
   schedule:
-    - cron: '0 * * * *'   # Every hour
+    - cron: '0 3 * * *'   # Every Day at 03:00 UTC
   workflow_dispatch:        # Manual trigger from GitHub Actions UI
 
 permissions:
