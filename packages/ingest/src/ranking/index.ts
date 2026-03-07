@@ -136,6 +136,30 @@ function sourceMultiplier(item: Item): number {
   return getSourceTier(item.sourceName)
 }
 
+// ── Author reputation ────────────────────────────────────────────────────────
+
+const AUTHOR_REPUTATION: Array<{ names: string[]; mult: number }> = [
+  { names: ['andrej karpathy'], mult: 1.6 },
+  { names: ['simon willison'], mult: 1.5 },
+  { names: ['nathan lambert'], mult: 1.4 },
+  { names: ['sebastian raschka'], mult: 1.4 },
+  { names: ['francois chollet', 'chollet'], mult: 1.3 },
+  { names: ['swyx', 'shawn wang'], mult: 1.3 },
+  { names: ['dario amodei', 'amanda askell'], mult: 1.3 },
+  { names: ['sam altman'], mult: 1.2 },
+  { names: ['yann lecun'], mult: 1.2 },
+  { names: ['alex albert'], mult: 1.2 },
+  { names: ['greg brockman'], mult: 1.2 },
+]
+
+function authorMultiplier(item: Item): number {
+  const author = item.author.toLowerCase()
+  for (const { names, mult } of AUTHOR_REPUTATION) {
+    if (names.some((n) => author.includes(n))) return mult
+  }
+  return 1.0
+}
+
 // ── Public API ───────────────────────────────────────────────────────────────
 
 export function rankItem(item: Item, hnUrls?: Set<string>): number {
@@ -146,6 +170,7 @@ export function rankItem(item: Item, hnUrls?: Set<string>): number {
     keywordMultiplier(item) *
     educationalMultiplier(item) *
     sourceMultiplier(item) *
+    authorMultiplier(item) *
     hnBoost
   )
 }

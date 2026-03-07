@@ -4,6 +4,8 @@ import type { Item } from '../types'
 interface DailyDigestProps {
   items: Item[]
   onMarkRead: (id: string) => void
+  lastVisit: Date | null
+  newCount: number
 }
 
 function timeAgo(iso: string): string {
@@ -14,7 +16,7 @@ function timeAgo(iso: string): string {
   return `${Math.floor(hrs / 24)}d ago`
 }
 
-export function DailyDigest({ items, onMarkRead }: DailyDigestProps) {
+export function DailyDigest({ items, onMarkRead, lastVisit, newCount }: DailyDigestProps) {
   const [open, setOpen] = useState(true)
 
   const top5 = useMemo(() => {
@@ -32,9 +34,18 @@ export function DailyDigest({ items, onMarkRead }: DailyDigestProps) {
         <span className="digest-title">
           <span className="digest-icon">⚡</span>
           Today's Top {top5.length}
+          {newCount > 0 && (
+            <span className="digest-new-badge">{newCount} new</span>
+          )}
         </span>
         <span className="digest-chevron">{open ? '▲' : '▼'}</span>
       </button>
+      {lastVisit && newCount > 0 && open && (
+        <p className="digest-since">
+          {newCount} new item{newCount !== 1 ? 's' : ''} since your last visit{' '}
+          {timeAgo(lastVisit.toISOString())}
+        </p>
+      )}
 
       {open && (
         <ol className="digest-list">

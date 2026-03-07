@@ -96,6 +96,21 @@ export function Card({ item, isRead, onMarkRead, onMarkUnread }: CardProps) {
           >
             {isRead ? '✓ Read' : 'Mark read'}
           </button>
+          <button
+            className="share-btn"
+            title="Share"
+            onClick={async () => {
+              const shareData = { title: item.title, url: item.url }
+              if (navigator.share) {
+                await navigator.share(shareData).catch(() => null)
+              } else {
+                await navigator.clipboard.writeText(item.url).catch(() => null)
+                // brief visual feedback via title attr change — handled by CSS :active
+              }
+            }}
+          >
+            Share
+          </button>
           <a
             href={item.url}
             target="_blank"

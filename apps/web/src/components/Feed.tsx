@@ -1,5 +1,8 @@
+import { useState, useEffect } from 'react'
 import type { Item, SortMode } from '../types'
 import { Card } from './Card'
+
+const PAGE_SIZE = 30
 
 interface FeedProps {
   items: Item[]
@@ -34,7 +37,16 @@ export function Feed({
   onMarkUnread,
   onClearRead,
 }: FeedProps) {
-  const visible = hideRead ? items.filter((i) => !readIds.has(i.id)) : items
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+
+  // Reset pagination when items list changes (filter/sort change)
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE)
+  }, [items])
+
+  const unfiltered = hideRead ? items.filter((i) => !readIds.has(i.id)) : items
+  const visible = unfiltered.slice(0, visibleCount)
+  const remaining = unfiltered.length - visibleCount
 
   return (
     <div className="feed">
@@ -97,7 +109,7 @@ export function Feed({
           <span>Loading...</span>
         ) : error ? null : (
           <span>
-            {visible.length} of {totalCount} items
+            {visible.length} of {unfiltered.length} items
             {readIds.size > 0 && <span className="feed-read-count"> · {readIds.size} read</span>}
           </span>
         )}
@@ -134,18 +146,31 @@ export function Feed({
       )}
 
       {!loading && !error && visible.length > 0 && (
-        <ul className="feed-list">
-          {visible.map((item) => (
-            <li key={item.id}>
-              <Card
-                item={item}
-                isRead={readIds.has(item.id)}
-                onMarkRead={onMarkRead}
-                onMarkUnread={onMarkUnread}
-              />
-            </li>
-          ))}
-        </ul>
+        <>
+          <ul className="feed-list">
+            {visible.map((item) => (
+              <li key={item.id}>
+                <Card
+                  item={item}
+                  isRead={readIds.has(item.id)}
+                  onMarkRead={onMarkRead}
+                  onMarkUnread={onMarkUnread}
+                />
+              </li>
+            ))}
+          </ul>
+          {remaining > 0 && (
+            <div className="load-more-wrapper">
+              <button
+                className="load-more-btn"
+                onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+              >
+                Load {Math.min(remaining, PAGE_SIZE)} more
+                <span className="load-more-count">({remaining} remaining)</span>
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   )

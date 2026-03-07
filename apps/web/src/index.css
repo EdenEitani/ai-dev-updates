@@ -1047,3 +1047,126 @@ ul, li {
     justify-content: flex-start;
   }
 }
+
+/* ===========================
+   Share Button
+   =========================== */
+.share-btn {
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: none;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.share-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.share-btn:active {
+  background: var(--accent-bg);
+}
+
+/* ===========================
+   Load More
+   =========================== */
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 8px;
+}
+
+.load-more-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-lg);
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.load-more-btn:hover {
+  background: rgba(88, 166, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.1);
+}
+
+.load-more-count {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ===========================
+   New since last visit / Digest badges
+   =========================== */
+.digest-new-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: var(--green);
+  color: #fff;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+
+.digest-since {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  padding: 6px 16px 0;
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* ===========================
+   Notification Bell
+   =========================== */
+.notif-bell {
+  position: relative;
+  margin-left: auto;
+  margin-right: 16px;
+  padding: 6px 8px;
+  font-size: 1.1rem;
+  line-height: 1;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+
+.notif-bell:hover {
+  background: var(--bg-hover);
+}
+
+.notif-bell--on {
+  color: var(--accent);
+}
+
+.notif-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(30%, -30%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  background: var(--red);
+  color: #fff;
+  border-radius: 9px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1;
+}

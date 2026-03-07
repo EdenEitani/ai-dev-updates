@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useItems } from './hooks/useItems'
 import { useReadItems } from './hooks/useReadItems'
+import { useLastVisit } from './hooks/useLastVisit'
 import { Header } from './components/Header'
 import { Sidebar } from './components/Sidebar'
 import { Feed } from './components/Feed'
@@ -10,8 +11,14 @@ import { DailyDigest } from './components/DailyDigest'
 export default function App() {
   const store = useItems()
   const { readIds, markRead, markUnread, clearAll } = useReadItems()
+  const lastVisit = useLastVisit()
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [hideRead, setHideRead] = useState(false)
+
+  const newCount = useMemo(() => {
+    if (!lastVisit) return 0
+    return store.items.filter((i) => new Date(i.publishedAt) > lastVisit).length
+  }, [store.items, lastVisit])
 
   const totalActive = Object.values(store.activeFilters).reduce(
     (s, set) => s + set.size,
@@ -20,7 +27,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <Header />
+      <Header newCount={newCount} />
       <div className="layout">
         <aside className="sidebar-wrapper">
           <button
@@ -50,7 +57,7 @@ export default function App() {
           </div>
         </aside>
         <main className="feed-wrapper">
-          <DailyDigest items={store.items} onMarkRead={markRead} />
+          <DailyDigest items={store.items} onMarkRead={markRead} lastVisit={lastVisit} newCount={newCount} />
           <LearnSection items={store.items} />
           <Feed
             items={store.filtered}
