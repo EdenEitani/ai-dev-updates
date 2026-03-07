@@ -2,6 +2,7 @@ import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs'
 import { join, resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 import type { Item, TagIndex } from '../types.js'
+import { MAX_ITEMS } from '../../config/feeds.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -14,6 +15,22 @@ function ensureDir(dir: string): void {
 function writeJson(filePath: string, data: unknown): void {
   ensureDir(dirname(filePath))
   writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8')
+}
+
+// Ensure feed diversity: no single tool tag dominates the stored set.
+// Untagged items (no tools) always pass through.
+function diversify(items: Item[], maxPerTool = 4): Item[] {
+  const toolCounts = new Map<string, number>()
+  return items.filter((item) => {
+    const tools = item.tags.tools
+    if (tools.length === 0) return true
+
+    const maxCount = Math.max(...tools.map((t) => toolCounts.get(t) ?? 0))
+    if (maxCount >= maxPerTool) return false
+
+    for (const t of tools) toolCounts.set(t, (toolCounts.get(t) ?? 0) + 1)
+    return true
+  })
 }
 
 export function buildTagIndex(items: Item[]): TagIndex {
@@ -42,24 +59,28 @@ export function loadExistingItems(): Item[] {
   }
 }
 
-export function writeIndexes(items: Item[], existingItems: Item[]): void {
-  // Merge new items with existing, new items win on conflict
-  const existingById = new Map(existingItems.map((i) => [i.id, i]))
-  for (const item of items) {
-    existingById.set(item.id, item)
+export function writeIndexes(newItems: Item[], existingItems: Item[]): void {
+  // Merge: new items win on conflict (fresher scores)
+  const byId = new Map(existingItems.map((i) => [i.id, i]))
+  for (const item of newItems) {
+    byId.set(item.id, item)
   }
 
-  const allItems = Array.from(existingById.values())
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
-    )
-    .slice(0, 1000)
+  // Sort by score (quality), not date — keeps the most valuable items
+  const allSorted = Array.from(byId.values())
+    .sort((a, b) => b.score - a.score)
 
-  const tagIndex = buildTagIndex(allItems)
-  const recentIds = allItems.slice(0, 100).map((i) => i.id)
+  // Apply diversity cap then take top MAX_ITEMS
+  const stored = diversify(allSorted).slice(0, MAX_ITEMS)
 
-  writeJson(join(DATA_DIR, 'items.json'), allItems)
+  const tagIndex = buildTagIndex(stored)
+  // recent.json = newest 50 by publishedAt (for the Daily Digest)
+  const recentIds = [...stored]
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 50)
+    .map((i) => i.id)
+
+  writeJson(join(DATA_DIR, 'items.json'), stored)
 
   const indexDir = join(DATA_DIR, 'index')
   writeJson(join(indexDir, 'recent.json'), recentIds)
@@ -79,7 +100,7 @@ export function writeIndexes(items: Item[], existingItems: Item[]): void {
     0,
   )
   console.log(`\nWrote to ${DATA_DIR}:`)
-  console.log(`  items.json       → ${allItems.length} items`)
-  console.log(`  index/recent.json → ${recentIds.length} ids`)
+  console.log(`  items.json        → ${stored.length} items (top by quality score)`)
+  console.log(`  index/recent.json → ${recentIds.length} ids (newest 50)`)
   console.log(`  index/tags.json   → ${totalTags} unique tags`)
 }

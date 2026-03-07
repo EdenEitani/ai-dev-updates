@@ -35,19 +35,32 @@ async function run(): Promise<void> {
     .filter((r) => r.title && r.url)
     .map((r) => normalizeItem(r))
 
-  // 3. Deduplicate
+  // 3. Build HN cross-reference set BEFORE dedup
+  // Items that appeared in Hacker News filtered feeds get a boost in ranking
+  const hnUrls = new Set(
+    normalized
+      .filter((i) => i.sourceName.toLowerCase().includes('hacker news'))
+      .map((i) => i.url),
+  )
+  console.log(`  HN-referenced URLs: ${hnUrls.size}`)
+
+  // 4. Deduplicate
   console.log('Deduplicating...')
   const deduped = deduplicate(normalized)
   console.log(`  ${normalized.length} → ${deduped.length} after dedup`)
 
-  // 4. Tag
-  console.log('Tagging...')
-  // Build source tags map: item.id → sourceTags from raw items
+  // 5. Quality filter — drop low-content items before tagging
+  const qualityFiltered = deduped.filter(
+    (item) => item.title.length >= 20 && item.summary.length >= 40,
+  )
+  console.log(`  ${deduped.length} → ${qualityFiltered.length} after quality filter`)
+
+  // 6. Build source tags map
   const sourceTagsMap = new Map<string, string[]>()
   for (const raw of allRaw) {
     if (raw.url && raw.sourceTags) {
       const url = raw.url.split('?')[0].replace(/\/$/, '').toLowerCase()
-      const item = deduped.find(
+      const item = qualityFiltered.find(
         (i) =>
           i.url === url ||
           i.url.includes(url.replace(/^https?:\/\//, '')),
@@ -55,19 +68,24 @@ async function run(): Promise<void> {
       if (item) sourceTagsMap.set(item.id, raw.sourceTags)
     }
   }
-  const tagged = tagItems(deduped, sourceTagsMap)
 
-  // 5. Rank
+  // 7. Tag
+  console.log('Tagging...')
+  const tagged = tagItems(qualityFiltered, sourceTagsMap)
+
+  // 8. Rank new items
   console.log('Ranking...')
-  const ranked = rankItems(tagged)
+  const ranked = rankItems(tagged, hnUrls)
 
-  // 6. Load existing and write indexes
+  // 9. Load existing items and re-rank them with fresh timestamps
   console.log('Loading existing items...')
   const existing = loadExistingItems()
   console.log(`  Found ${existing.length} existing items`)
+  const rerankedExisting = rankItems(existing, hnUrls)
 
+  // 10. Write indexes
   console.log('Writing indexes...')
-  writeIndexes(ranked, existing)
+  writeIndexes(ranked, rerankedExisting)
 
   console.log('\nDone!')
 }
