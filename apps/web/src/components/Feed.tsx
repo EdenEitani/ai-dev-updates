@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import type { Item, SortMode } from '../types'
 import { Card } from './Card'
 
@@ -38,11 +38,13 @@ export function Feed({
   onClearRead,
 }: FeedProps) {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
-
-  // Reset pagination when items list changes (filter/sort change)
-  useEffect(() => {
+  // Track items reference to reset pagination synchronously during render
+  // (useEffect would cause a visible flicker since it runs after render)
+  const [prevItems, setPrevItems] = useState(items)
+  if (prevItems !== items) {
+    setPrevItems(items)
     setVisibleCount(PAGE_SIZE)
-  }, [items])
+  }
 
   const unfiltered = hideRead ? items.filter((i) => !readIds.has(i.id)) : items
   const visible = unfiltered.slice(0, visibleCount)
