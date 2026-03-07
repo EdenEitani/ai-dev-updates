@@ -55,15 +55,20 @@ function buildLearnCards(items: Item[]): LearnCard[] {
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   )
 
-  const seen = new Set<string>()
   const byTool: Record<string, Item> = {}
 
+  // Pass 1: prefer items explicitly typed as release/tutorial/roadmap
   for (const item of sorted) {
-    const hasLearnType = item.tags.type.some((t) => LEARN_TYPES.has(t))
-    if (!hasLearnType) continue
+    if (!item.tags.type.some((t) => LEARN_TYPES.has(t))) continue
     for (const tool of item.tags.tools) {
-      if (!seen.has(tool)) {
-        seen.add(tool)
+      if (!(tool in byTool)) byTool[tool] = item
+    }
+  }
+
+  // Pass 2: fall back to most recent item for any TOOL_ORDER tool not yet covered
+  for (const item of sorted) {
+    for (const tool of item.tags.tools) {
+      if (!(tool in byTool) && TOOL_ORDER.includes(tool)) {
         byTool[tool] = item
       }
     }

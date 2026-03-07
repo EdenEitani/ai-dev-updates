@@ -47,17 +47,24 @@ function keywordMultiplier(item: Item): number {
   return 1 + Math.min(hits * 0.2, 1.2)
 }
 
+const VIBE_TOOLS = new Set([
+  'cursor', 'lovable', 'bolt', 'replit', 'windsurf', 'base44', 'v0',
+  'devin', 'copilot', 'aider', 'continue', 'claude-code',
+])
+
 function sourceMultiplier(item: Item): number {
   if (item.source !== 'rss') return 1.0
   const name = item.sourceName.toLowerCase()
-  // GitHub release feeds are the highest-signal: exact version releases
+  // GitHub release feeds: highest signal (exact version releases)
   if (name.includes('release')) return 1.6
-  // Official company blogs and research
+  // Official company blogs
   if (
     name.includes('openai') || name.includes('anthropic') ||
     name.includes('deepmind') || name.includes('google ai') ||
     name.includes('huggingface') || name.includes('arxiv')
   ) return 1.4
+  // Vibe-coding tools: boost any RSS item tagged with a vibe tool
+  if (item.tags.tools.some((t) => VIBE_TOOLS.has(t))) return 1.4
   // Quality news outlets
   return 1.2
 }

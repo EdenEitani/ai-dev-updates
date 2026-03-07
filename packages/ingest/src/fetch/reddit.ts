@@ -25,23 +25,64 @@ interface RedditListing {
   }
 }
 
-const USER_AGENT = 'AI-Dev-Updates-Bot/1.0 (github.com/ai-dev-updates)'
+const USER_AGENT = 'AI-Dev-Updates-Bot/1.0 (github.com/EdenEitani/ai-dev-updates)'
+
+// Module-level token cache for the current run
+let cachedToken: string | null = null
+
+async function getOAuthToken(): Promise<string | null> {
+  const clientId = process.env.REDDIT_CLIENT_ID
+  const clientSecret = process.env.REDDIT_CLIENT_SECRET
+  if (!clientId || !clientSecret) return null
+
+  if (cachedToken) return cachedToken
+
+  try {
+    const creds = Buffer.from(`${clientId}:${clientSecret}`).toString('base64')
+    const res = await fetch('https://www.reddit.com/api/v1/access_token', {
+      method: 'POST',
+      headers: {
+        Authorization: `Basic ${creds}`,
+        'User-Agent': USER_AGENT,
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: 'grant_type=client_credentials',
+      signal: AbortSignal.timeout(10000),
+    })
+    if (!res.ok) {
+      console.warn(`  [reddit] OAuth token fetch failed: ${res.status}`)
+      return null
+    }
+    const json = (await res.json()) as { access_token?: string }
+    cachedToken = json.access_token ?? null
+    if (cachedToken) console.log('  [reddit] OAuth token obtained')
+    return cachedToken
+  } catch (err) {
+    console.warn('  [reddit] OAuth token error:', err instanceof Error ? err.message : String(err))
+    return null
+  }
+}
 
 export async function fetchReddit(config: RedditConfig): Promise<RawItem[]> {
   const { subreddit } = config
   try {
     console.log(`  [reddit] fetching r/${subreddit}...`)
 
-    const res = await fetch(
-      `https://www.reddit.com/r/${subreddit}/hot.json?limit=50&raw_json=1`,
-      {
-        headers: {
-          'User-Agent': USER_AGENT,
-          Accept: 'application/json',
-        },
-        signal: AbortSignal.timeout(15000),
-      },
-    )
+    const token = await getOAuthToken()
+    const baseUrl = token
+      ? `https://oauth.reddit.com/r/${subreddit}/hot.json?limit=50&raw_json=1`
+      : `https://www.reddit.com/r/${subreddit}/hot.json?limit=50&raw_json=1`
+
+    const headers: Record<string, string> = {
+      'User-Agent': USER_AGENT,
+      Accept: 'application/json',
+    }
+    if (token) headers['Authorization'] = `Bearer ${token}`
+
+    const res = await fetch(baseUrl, {
+      headers,
+      signal: AbortSignal.timeout(15000),
+    })
 
     if (res.status === 403 || res.status === 429) {
       console.warn(`  [reddit] r/${subreddit} blocked (${res.status}) — skipping`)
