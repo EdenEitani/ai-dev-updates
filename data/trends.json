@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-07T20:18:57.466Z",
+  "updatedAt": "2026-03-07T21:15:45.370Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -11,13 +11,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
-      "thisWeek": 2,
+    "claude-code": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 1,
+    "huggingface": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -63,8 +63,23 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 53,
+    "agents": {
+      "thisWeek": 64,
+      "lastWeek": 1,
+      "delta": 6300
+    },
+    "rag": {
+      "thisWeek": 30,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 36,
+      "lastWeek": 1,
+      "delta": 3500
+    },
+    "infra": {
+      "thisWeek": 38,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,28 +88,13 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "evals": {
+      "thisWeek": 53,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "safety": {
       "thisWeek": 23,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "agents": {
-      "thisWeek": 60,
-      "lastWeek": 1,
-      "delta": 5900
-    },
-    "rag": {
-      "thisWeek": 30,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 37,
-      "lastWeek": 1,
-      "delta": 3600
-    },
-    "infra": {
-      "thisWeek": 37,
       "lastWeek": 0,
       "delta": 100
     },
