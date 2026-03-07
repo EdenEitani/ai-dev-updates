@@ -54,5 +54,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           ITEM_COUNT=$(jq length data/items.json)
-          git commit -m "chore: update AI news data (${ITEM_COUNT} items) [skip ci]"
+          git commit -m "chore: update AI news data (${ITEM_COUNT} items)"
           git push
