@@ -31,6 +31,12 @@ export const TAG_RULES: TagRule[] = [
   { tag: 'devin', category: 'tools', keywords: ['devin', 'cognition ai', 'cognition labs'], domains: ['cognition.ai'] },
   { tag: 'aider', category: 'tools', keywords: ['aider', 'aider.chat'], domains: ['aider.chat'] },
   { tag: 'continue', category: 'tools', keywords: ['continue.dev', 'continue ai'], domains: ['continue.dev'] },
+  // ── AI agents & orchestration ──
+  { tag: 'crewai', category: 'tools', keywords: ['crewai', 'crew ai'], domains: ['crewai.com'] },
+  { tag: 'autogen', category: 'tools', keywords: ['autogen', 'ag2', 'microsoft autogen'], domains: ['microsoft.github.io/autogen'] },
+  { tag: 'litellm', category: 'tools', keywords: ['litellm'], domains: ['litellm.ai'] },
+  { tag: 'dspy', category: 'tools', keywords: ['dspy', 'ds-py', 'stanford dspy'] },
+  { tag: 'instructor', category: 'tools', keywords: ['instructor', 'instructor-ai', 'structured outputs'] },
 
   // --- industry ---
   { tag: 'fintech', category: 'industry', keywords: ['fintech', 'finance', 'banking', 'payments', 'trading', 'investment', 'hedge fund'] },

@@ -50,6 +50,7 @@ function keywordMultiplier(item: Item): number {
 const VIBE_TOOLS = new Set([
   'cursor', 'lovable', 'bolt', 'replit', 'windsurf', 'base44', 'v0',
   'devin', 'copilot', 'aider', 'continue', 'claude-code',
+  'crewai', 'autogen', 'litellm', 'dspy', 'instructor',
 ])
 
 function sourceMultiplier(item: Item): number {

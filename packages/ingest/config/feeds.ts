@@ -45,8 +45,14 @@ export const RSS_FEEDS: FeedConfig[] = [
     tags: ['huggingface'],
   },
   {
-    name: 'Cohere Blog',
-    url: 'https://cohere.com/blog/rss',
+    name: 'Meta AI Blog',
+    url: 'https://ai.meta.com/blog/rss/',
+    type: 'rss',
+    tags: ['llama'],
+  },
+  {
+    name: 'Mistral Blog',
+    url: 'https://mistral.ai/news/rss',
     type: 'rss',
     tags: [],
   },
@@ -59,22 +65,10 @@ export const RSS_FEEDS: FeedConfig[] = [
     tags: ['langchain'],
   },
   {
-    name: 'LlamaIndex Blog',
-    url: 'https://www.llamaindex.ai/blog/rss',
-    type: 'rss',
-    tags: [],
-  },
-  {
     name: 'Vercel Blog',
     url: 'https://vercel.com/blog/feed.xml',
     type: 'rss',
     tags: ['vercel-ai-sdk', 'v0'],
-  },
-  {
-    name: 'Pinecone Blog',
-    url: 'https://www.pinecone.io/blog/rss.xml',
-    type: 'rss',
-    tags: ['pinecone'],
   },
   {
     name: 'AWS Machine Learning Blog',
@@ -83,8 +77,58 @@ export const RSS_FEEDS: FeedConfig[] = [
     tags: [],
     limit: 8,
   },
+  {
+    name: 'Lightning AI Blog',
+    url: 'https://lightning.ai/blog/rss/',
+    type: 'rss',
+    tags: [],
+    limit: 5,
+  },
+  {
+    name: 'Together AI Blog',
+    url: 'https://www.together.ai/blog/rss.xml',
+    type: 'rss',
+    tags: [],
+    limit: 5,
+  },
 
-  // ── GitHub Releases (Atom) ────────────────────────────────────
+  // ── GitHub Releases (Atom) — SDK & Core Tools ─────────────────
+  {
+    name: 'Claude Code Releases',
+    url: 'https://github.com/anthropics/claude-code/releases.atom',
+    type: 'rss',
+    tags: ['anthropic', 'claude-code', 'release'],
+  },
+  {
+    name: 'Anthropic Python SDK Releases',
+    url: 'https://github.com/anthropics/anthropic-sdk-python/releases.atom',
+    type: 'rss',
+    tags: ['anthropic', 'release'],
+  },
+  {
+    name: 'Anthropic TypeScript SDK Releases',
+    url: 'https://github.com/anthropics/anthropic-sdk-typescript/releases.atom',
+    type: 'rss',
+    tags: ['anthropic', 'release'],
+  },
+  {
+    name: 'OpenAI Python SDK Releases',
+    url: 'https://github.com/openai/openai-python/releases.atom',
+    type: 'rss',
+    tags: ['openai', 'release'],
+  },
+  {
+    name: 'OpenAI Node SDK Releases',
+    url: 'https://github.com/openai/openai-node/releases.atom',
+    type: 'rss',
+    tags: ['openai', 'release'],
+  },
+  {
+    name: 'Vercel AI SDK Releases',
+    url: 'https://github.com/vercel/ai/releases.atom',
+    type: 'rss',
+    tags: ['vercel-ai-sdk', 'release'],
+  },
   {
     name: 'LangChain Releases',
     url: 'https://github.com/langchain-ai/langchain/releases.atom',
@@ -98,34 +142,10 @@ export const RSS_FEEDS: FeedConfig[] = [
     tags: ['release'],
   },
   {
-    name: 'OpenAI Python SDK Releases',
-    url: 'https://github.com/openai/openai-python/releases.atom',
-    type: 'rss',
-    tags: ['openai', 'release'],
-  },
-  {
-    name: 'Anthropic Python SDK Releases',
-    url: 'https://github.com/anthropics/anthropic-sdk-python/releases.atom',
-    type: 'rss',
-    tags: ['anthropic', 'release'],
-  },
-  {
-    name: 'Vercel AI SDK Releases',
-    url: 'https://github.com/vercel/ai/releases.atom',
-    type: 'rss',
-    tags: ['vercel-ai-sdk', 'release'],
-  },
-  {
     name: 'HuggingFace Transformers Releases',
     url: 'https://github.com/huggingface/transformers/releases.atom',
     type: 'rss',
     tags: ['huggingface', 'release'],
-  },
-  {
-    name: 'PyTorch Releases',
-    url: 'https://github.com/pytorch/pytorch/releases.atom',
-    type: 'rss',
-    tags: ['release'],
   },
   {
     name: 'Ollama Releases',
@@ -140,7 +160,51 @@ export const RSS_FEEDS: FeedConfig[] = [
     tags: ['release'],
   },
 
-  // ── arXiv Research (capped — research papers for context only) ─
+  // ── GitHub Releases — AI Agents & Orchestration ───────────────
+  {
+    name: 'CrewAI Releases',
+    url: 'https://github.com/crewAIInc/crewAI/releases.atom',
+    type: 'rss',
+    tags: ['release'],
+  },
+  {
+    name: 'AutoGen Releases',
+    url: 'https://github.com/microsoft/autogen/releases.atom',
+    type: 'rss',
+    tags: ['release'],
+  },
+  {
+    name: 'LiteLLM Releases',
+    url: 'https://github.com/BerriAI/litellm/releases.atom',
+    type: 'rss',
+    tags: ['release'],
+  },
+  {
+    name: 'DSPy Releases',
+    url: 'https://github.com/stanfordnlp/dspy/releases.atom',
+    type: 'rss',
+    tags: ['release'],
+  },
+  {
+    name: 'Instructor Releases',
+    url: 'https://github.com/instructor-ai/instructor/releases.atom',
+    type: 'rss',
+    tags: ['release'],
+  },
+  {
+    name: 'Continue.dev Releases',
+    url: 'https://github.com/continuedev/continue/releases.atom',
+    type: 'rss',
+    tags: ['continue', 'release'],
+  },
+  {
+    name: 'PyTorch Releases',
+    url: 'https://github.com/pytorch/pytorch/releases.atom',
+    type: 'rss',
+    tags: ['release'],
+  },
+
+  // ── arXiv Research (capped — context only) ────────────────────
   {
     name: 'arXiv cs.AI',
     url: 'https://rss.arxiv.org/rss/cs.AI',
@@ -186,54 +250,38 @@ export const RSS_FEEDS: FeedConfig[] = [
     limit: 5,
   },
   {
-    name: 'Ars Technica AI',
-    url: 'https://feeds.arstechnica.com/arstechnica/technology-lab',
-    type: 'rss',
-    tags: [],
-    limit: 5,
-  },
-
-  // ── Business / Investment AI News ────────────────────────────
-  {
-    name: 'Reuters Technology',
-    url: 'https://feeds.reuters.com/reuters/technologyNews',
-    type: 'rss',
-    tags: [],
-    limit: 15,
-  },
-  {
     name: 'Wired AI',
     url: 'https://www.wired.com/feed/tag/artificial-intelligence/latest/rss',
     type: 'rss',
     tags: [],
-    limit: 10,
-  },
-  {
-    name: 'Fortune Technology',
-    url: 'https://fortune.com/feed/fortune-feeds/?id=3230629',
-    type: 'rss',
-    tags: [],
-    limit: 10,
+    limit: 5,
   },
   {
     name: 'CNBC AI',
     url: 'https://www.cnbc.com/id/100727362/device/rss/rss.html',
     type: 'rss',
     tags: [],
-    limit: 10,
+    limit: 5,
   },
 
   // ── Developer Communities ─────────────────────────────────────
   {
-    name: 'Hacker News Frontpage',
-    url: 'https://hnrss.org/frontpage',
+    name: 'Hacker News — AI/LLM (viral)',
+    url: 'https://hnrss.org/newest?q=LLM+OR+GPT+OR+Claude+OR+Gemini+OR+agent&points=100',
+    type: 'rss',
+    tags: [],
+    limit: 15,
+  },
+  {
+    name: 'Hacker News — Vibe Coding',
+    url: 'https://hnrss.org/newest?q=cursor+OR+lovable+OR+bolt+OR+windsurf+OR+replit+OR+copilot&points=50',
     type: 'rss',
     tags: [],
     limit: 10,
   },
   {
-    name: 'Hacker News — AI/LLM',
-    url: 'https://hnrss.org/newest?q=LLM+OR+GPT+OR+Claude+OR+Gemini&points=50',
+    name: 'Hacker News — Releases',
+    url: 'https://hnrss.org/newest?q=Show+HN&points=100',
     type: 'rss',
     tags: [],
     limit: 10,
@@ -255,20 +303,14 @@ export const RSS_FEEDS: FeedConfig[] = [
 
   // ── AI Newsletters ────────────────────────────────────────────
   {
-    name: 'Import AI (Jack Clark)',
-    url: 'https://importai.substack.com/feed',
+    name: 'Latent Space',
+    url: 'https://www.latent.space/feed',
     type: 'rss',
     tags: [],
   },
   {
-    name: "Ben's Bites",
-    url: 'https://www.bensbites.com/feed',
-    type: 'rss',
-    tags: [],
-  },
-  {
-    name: 'The Rundown AI',
-    url: 'https://www.therundown.ai/rss',
+    name: 'Interconnects (Nathan Lambert)',
+    url: 'https://www.interconnects.ai/feed',
     type: 'rss',
     tags: [],
   },
@@ -287,6 +329,18 @@ export const RSS_FEEDS: FeedConfig[] = [
   {
     name: 'The Gradient',
     url: 'https://thegradient.pub/rss/',
+    type: 'rss',
+    tags: [],
+  },
+  {
+    name: "Ben's Bites",
+    url: 'https://www.bensbites.com/feed',
+    type: 'rss',
+    tags: [],
+  },
+  {
+    name: 'Import AI (Jack Clark)',
+    url: 'https://importai.substack.com/feed',
     type: 'rss',
     tags: [],
   },
@@ -309,11 +363,57 @@ export const RSS_FEEDS: FeedConfig[] = [
     url: 'https://github.blog/feed/',
     type: 'rss',
     tags: ['copilot'],
+    limit: 10,
+  },
+
+  // ── Reddit RSS (no auth required — fallback for community signal) ─
+  // These complement the JSON API (which adds score/comments when OAuth is set)
+  {
+    name: 'r/LocalLLaMA',
+    url: 'https://www.reddit.com/r/LocalLLaMA/.rss?limit=25',
+    type: 'rss',
+    tags: ['llama'],
     limit: 15,
+  },
+  {
+    name: 'r/MachineLearning',
+    url: 'https://www.reddit.com/r/MachineLearning/.rss?limit=25',
+    type: 'rss',
+    tags: [],
+    limit: 10,
+  },
+  {
+    name: 'r/ClaudeAI',
+    url: 'https://www.reddit.com/r/ClaudeAI/.rss?limit=20',
+    type: 'rss',
+    tags: ['anthropic'],
+    limit: 10,
+  },
+  {
+    name: 'r/ChatGPTCoding',
+    url: 'https://www.reddit.com/r/ChatGPTCoding/.rss?limit=20',
+    type: 'rss',
+    tags: [],
+    limit: 10,
+  },
+  {
+    name: 'r/cursor',
+    url: 'https://www.reddit.com/r/cursor/.rss?limit=20',
+    type: 'rss',
+    tags: ['cursor'],
+    limit: 10,
+  },
+  {
+    name: 'r/singularity',
+    url: 'https://www.reddit.com/r/singularity/.rss?limit=20',
+    type: 'rss',
+    tags: [],
+    limit: 8,
   },
 ]
 
-// Reddit via JSON API (preserves upvote score + comment count for ranking)
+// Reddit via JSON API — provides score + comment count for better ranking.
+// Falls back gracefully to RSS feeds above if 403 (no OAuth set).
 export const REDDIT_SOURCES: RedditConfig[] = [
   { subreddit: 'MachineLearning' },
   { subreddit: 'LocalLLaMA', tags: ['llama'] },
