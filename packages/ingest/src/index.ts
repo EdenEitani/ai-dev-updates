@@ -72,7 +72,9 @@ async function run(): Promise<void> {
   console.log('\nDone!')
 }
 
-run().catch((err) => {
-  console.error('Ingestion failed:', err)
-  process.exit(1)
-})
+run()
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error('Ingestion failed:', err)
+    process.exit(1)
+  })

@@ -43,6 +43,10 @@ export async function fetchReddit(config: RedditConfig): Promise<RawItem[]> {
       },
     )
 
+    if (res.status === 403 || res.status === 429) {
+      console.warn(`  [reddit] r/${subreddit} blocked (${res.status}) — skipping`)
+      return []
+    }
     if (!res.ok) {
       throw new Error(`HTTP ${res.status} ${res.statusText}`)
     }

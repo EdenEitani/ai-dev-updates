@@ -81,7 +81,7 @@ export const RSS_FEEDS: FeedConfig[] = [
     url: 'https://aws.amazon.com/blogs/machine-learning/feed/',
     type: 'rss',
     tags: [],
-    limit: 15,
+    limit: 8,
   },
 
   // ── GitHub Releases (Atom) ────────────────────────────────────
@@ -140,27 +140,20 @@ export const RSS_FEEDS: FeedConfig[] = [
     tags: ['release'],
   },
 
-  // ── arXiv Research ───────────────────────────────────────────
+  // ── arXiv Research (capped — research papers for context only) ─
   {
     name: 'arXiv cs.AI',
     url: 'https://rss.arxiv.org/rss/cs.AI',
     type: 'rss',
     tags: [],
-    limit: 20,
-  },
-  {
-    name: 'arXiv cs.LG',
-    url: 'https://rss.arxiv.org/rss/cs.LG',
-    type: 'rss',
-    tags: [],
-    limit: 20,
+    limit: 5,
   },
   {
     name: 'arXiv cs.CL',
     url: 'https://rss.arxiv.org/rss/cs.CL',
     type: 'rss',
     tags: [],
-    limit: 20,
+    limit: 5,
   },
 
   // ── AI News Sites ─────────────────────────────────────────────
@@ -169,35 +162,35 @@ export const RSS_FEEDS: FeedConfig[] = [
     url: 'https://venturebeat.com/category/ai/feed/',
     type: 'rss',
     tags: [],
-    limit: 15,
+    limit: 8,
   },
   {
     name: 'MIT Technology Review AI',
     url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed/',
     type: 'rss',
     tags: [],
-    limit: 10,
+    limit: 5,
   },
   {
     name: 'The Verge AI',
     url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
     type: 'rss',
     tags: [],
-    limit: 10,
+    limit: 5,
   },
   {
     name: 'TechCrunch AI',
     url: 'https://techcrunch.com/category/artificial-intelligence/feed/',
     type: 'rss',
     tags: [],
-    limit: 10,
+    limit: 5,
   },
   {
     name: 'Ars Technica AI',
     url: 'https://feeds.arstechnica.com/arstechnica/technology-lab',
     type: 'rss',
     tags: [],
-    limit: 10,
+    limit: 5,
   },
 
   // ── Business / Investment AI News ────────────────────────────
@@ -236,28 +229,28 @@ export const RSS_FEEDS: FeedConfig[] = [
     url: 'https://hnrss.org/frontpage',
     type: 'rss',
     tags: [],
-    limit: 20,
+    limit: 10,
   },
   {
     name: 'Hacker News — AI/LLM',
     url: 'https://hnrss.org/newest?q=LLM+OR+GPT+OR+Claude+OR+Gemini&points=50',
     type: 'rss',
     tags: [],
-    limit: 20,
+    limit: 10,
   },
   {
     name: 'Dev.to — AI',
     url: 'https://dev.to/feed/tag/ai',
     type: 'rss',
     tags: [],
-    limit: 15,
+    limit: 8,
   },
   {
     name: 'Dev.to — LLM',
     url: 'https://dev.to/feed/tag/llm',
     type: 'rss',
     tags: [],
-    limit: 15,
+    limit: 8,
   },
 
   // ── AI Newsletters ────────────────────────────────────────────
@@ -335,5 +328,5 @@ export const REDDIT_SOURCES: RedditConfig[] = [
 ]
 
 export const DATA_DIR = '../../data'
-export const MAX_ITEMS = 1000
+export const MAX_ITEMS = 300
 export const DEDUP_TITLE_THRESHOLD = 0.15

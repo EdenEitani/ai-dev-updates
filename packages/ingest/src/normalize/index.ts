@@ -90,7 +90,7 @@ export function deduplicate(items: Item[], threshold = 0.85): Item[] {
     seenUrls.add(item.url)
 
     // Fuzzy title dedup (only check last 200 titles for performance)
-    const titleWindow = seenTitles.slice(-200)
+    const titleWindow = seenTitles.slice(-50)
     const isDuplicate = titleWindow.some(
       (t) => titleSimilarity(t, item.title) >= threshold,
     )
