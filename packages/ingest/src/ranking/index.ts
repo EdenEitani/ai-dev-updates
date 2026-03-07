@@ -35,8 +35,9 @@ const CODE_SIGNALS = [
 // Map sourceName patterns (lowercase) → multiplier
 
 const SOURCE_TIERS: Array<{ patterns: string[]; mult: number }> = [
-  // S-tier: highest trust — exact version releases, top researchers
+  // S-tier: highest trust — exact version releases, top researchers, insider accounts
   { patterns: ['releases', 'release'], mult: 2.0 },
+  { patterns: ['thariq shihipar', 'claude code community'], mult: 2.0 },
   { patterns: ['latent space', 'simon willison', 'interconnects'], mult: 1.9 },
 
   // A-tier: official company blogs from major AI labs
@@ -139,6 +140,7 @@ function sourceMultiplier(item: Item): number {
 // ── Author reputation ────────────────────────────────────────────────────────
 
 const AUTHOR_REPUTATION: Array<{ names: string[]; mult: number }> = [
+  { names: ['thariq', 'trq212'], mult: 1.6 },
   { names: ['andrej karpathy'], mult: 1.6 },
   { names: ['simon willison'], mult: 1.5 },
   { names: ['nathan lambert'], mult: 1.4 },

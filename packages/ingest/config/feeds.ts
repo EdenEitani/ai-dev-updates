@@ -13,6 +13,20 @@ export interface RedditConfig {
 
 export const RSS_FEEDS: FeedConfig[] = [
 
+  // ── Insider Twitter/X feeds (via rss.app) ─────────────────────
+  {
+    name: 'Thariq Shihipar (Claude Code)',
+    url: 'https://rss.app/feeds/saYRSw5hD8C6Vh4W.xml',
+    type: 'rss',
+    tags: ['anthropic', 'claude-code'],
+  },
+  {
+    name: 'Claude Code Community',
+    url: 'https://rss.app/feeds/zmfv1QC7YXsbFJKV.xml',
+    type: 'rss',
+    tags: ['anthropic', 'claude-code'],
+  },
+
   // ── AI Companies ──────────────────────────────────────────────
   {
     name: 'OpenAI Blog',
