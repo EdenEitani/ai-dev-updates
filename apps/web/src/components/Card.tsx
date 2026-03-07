@@ -2,6 +2,9 @@ import type { Item } from '../types'
 
 interface CardProps {
   item: Item
+  isRead: boolean
+  onMarkRead: (id: string) => void
+  onMarkUnread: (id: string) => void
 }
 
 function timeAgo(iso: string): string {
@@ -28,7 +31,7 @@ const TAG_COLORS: Record<string, string> = {
   type: '#cd853f',
 }
 
-export function Card({ item }: CardProps) {
+export function Card({ item, isRead, onMarkRead, onMarkUnread }: CardProps) {
   const allTags = [
     ...item.tags.tools.map((t) => ({ label: t, cat: 'tools' })),
     ...item.tags.topic.map((t) => ({ label: t, cat: 'topic' })),
@@ -37,7 +40,7 @@ export function Card({ item }: CardProps) {
   ].slice(0, 6)
 
   return (
-    <article className="card">
+    <article className={`card${isRead ? ' card--read' : ''}`}>
       <div className="card-meta">
         <span
           className="card-source-badge"
@@ -62,7 +65,7 @@ export function Card({ item }: CardProps) {
       </div>
 
       <h2 className="card-title">
-        <a href={item.url} target="_blank" rel="noopener noreferrer">
+        <a href={item.url} target="_blank" rel="noopener noreferrer" onClick={() => onMarkRead(item.id)}>
           {item.title}
         </a>
       </h2>
@@ -85,14 +88,24 @@ export function Card({ item }: CardProps) {
             ))}
           </div>
         )}
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card-link-btn"
-        >
-          Open
-        </a>
+        <div className="card-actions">
+          <button
+            className={`mark-read-btn${isRead ? ' mark-read-btn--done' : ''}`}
+            onClick={() => isRead ? onMarkUnread(item.id) : onMarkRead(item.id)}
+            title={isRead ? 'Mark as unread' : 'Mark as read'}
+          >
+            {isRead ? '✓ Read' : 'Mark read'}
+          </button>
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-link-btn"
+            onClick={() => onMarkRead(item.id)}
+          >
+            Open
+          </a>
+        </div>
       </div>
     </article>
   )

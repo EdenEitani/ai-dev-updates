@@ -8,8 +8,14 @@ interface FeedProps {
   searchQuery: string
   sortMode: SortMode
   totalCount: number
+  hideRead: boolean
+  readIds: Set<string>
   onSearchChange: (q: string) => void
   onSortChange: (m: SortMode) => void
+  onToggleHideRead: () => void
+  onMarkRead: (id: string) => void
+  onMarkUnread: (id: string) => void
+  onClearRead: () => void
 }
 
 export function Feed({
@@ -19,9 +25,17 @@ export function Feed({
   searchQuery,
   sortMode,
   totalCount,
+  hideRead,
+  readIds,
   onSearchChange,
   onSortChange,
+  onToggleHideRead,
+  onMarkRead,
+  onMarkUnread,
+  onClearRead,
 }: FeedProps) {
+  const visible = hideRead ? items.filter((i) => !readIds.has(i.id)) : items
+
   return (
     <div className="feed">
       <div className="feed-toolbar">
@@ -46,19 +60,35 @@ export function Feed({
           )}
         </div>
 
-        <div className="sort-tabs">
+        <div className="toolbar-right">
+          <div className="sort-tabs">
+            <button
+              className={`sort-tab ${sortMode === 'newest' ? 'active' : ''}`}
+              onClick={() => onSortChange('newest')}
+            >
+              Newest
+            </button>
+            <button
+              className={`sort-tab ${sortMode === 'top' ? 'active' : ''}`}
+              onClick={() => onSortChange('top')}
+            >
+              Top
+            </button>
+          </div>
+
           <button
-            className={`sort-tab ${sortMode === 'newest' ? 'active' : ''}`}
-            onClick={() => onSortChange('newest')}
+            className={`hide-read-btn${hideRead ? ' hide-read-btn--active' : ''}`}
+            onClick={onToggleHideRead}
+            title={hideRead ? 'Show all items' : 'Hide read items'}
           >
-            Newest
+            {hideRead ? `Unread only (${items.length - [...readIds].filter(id => items.some(i => i.id === id)).length} hidden)` : 'Hide read'}
           </button>
-          <button
-            className={`sort-tab ${sortMode === 'top' ? 'active' : ''}`}
-            onClick={() => onSortChange('top')}
-          >
-            Top
-          </button>
+
+          {readIds.size > 0 && (
+            <button className="clear-read-btn" onClick={onClearRead} title="Clear all read marks">
+              Clear read ({readIds.size})
+            </button>
+          )}
         </div>
       </div>
 
@@ -67,7 +97,8 @@ export function Feed({
           <span>Loading...</span>
         ) : error ? null : (
           <span>
-            {items.length} of {totalCount} items
+            {visible.length} of {totalCount} items
+            {readIds.size > 0 && <span className="feed-read-count"> · {readIds.size} read</span>}
           </span>
         )}
       </div>
@@ -89,22 +120,29 @@ export function Feed({
         </div>
       )}
 
-      {!loading && !error && items.length === 0 && (
+      {!loading && !error && visible.length === 0 && (
         <div className="feed-state">
           <p className="feed-empty-title">No items found</p>
           <p className="feed-empty-sub">
             {totalCount === 0
               ? 'Run pnpm ingest to fetch AI news.'
+              : hideRead && readIds.size > 0
+              ? 'All caught up! Toggle "Hide read" to see everything.'
               : 'Try adjusting your filters or search.'}
           </p>
         </div>
       )}
 
-      {!loading && !error && items.length > 0 && (
+      {!loading && !error && visible.length > 0 && (
         <ul className="feed-list">
-          {items.map((item) => (
+          {visible.map((item) => (
             <li key={item.id}>
-              <Card item={item} />
+              <Card
+                item={item}
+                isRead={readIds.has(item.id)}
+                onMarkRead={onMarkRead}
+                onMarkUnread={onMarkUnread}
+              />
             </li>
           ))}
         </ul>
