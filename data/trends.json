@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-08T16:20:43.627Z",
+  "updatedAt": "2026-03-08T17:18:35.932Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -17,7 +17,7 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -42,16 +42,11 @@
       "delta": 100
     },
     "copilot": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "crewai": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "windsurf": {
+    "crewai": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -74,12 +69,12 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 80,
+      "thisWeek": 81,
       "lastWeek": 1,
-      "delta": 7900
+      "delta": 8000
     },
     "rag": {
-      "thisWeek": 31,
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
     },
@@ -89,17 +84,17 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 35,
+      "thisWeek": 37,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 37,
+      "thisWeek": 39,
       "lastWeek": 1,
-      "delta": 3600
+      "delta": 3800
     },
     "safety": {
-      "thisWeek": 16,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
