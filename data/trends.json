@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-08T10:19:12.208Z",
+  "updatedAt": "2026-03-08T11:16:14.461Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -11,13 +11,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "claude-code": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -31,13 +26,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
+    "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "autogen": {
-      "thisWeek": 1,
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -63,20 +58,30 @@
     }
   },
   "topics": {
+    "agents": {
+      "thisWeek": 81,
+      "lastWeek": 1,
+      "delta": 8000
+    },
+    "evals": {
+      "thisWeek": 50,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "pricing": {
       "thisWeek": 31,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 32,
+      "thisWeek": 34,
       "lastWeek": 0,
       "delta": 100
     },
-    "agents": {
-      "thisWeek": 80,
-      "lastWeek": 1,
-      "delta": 7900
+    "infra": {
+      "thisWeek": 52,
+      "lastWeek": 0,
+      "delta": 100
     },
     "voice": {
       "thisWeek": 10,
@@ -84,27 +89,17 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 39,
+      "thisWeek": 38,
       "lastWeek": 1,
-      "delta": 3800
+      "delta": 3700
     },
     "rag": {
-      "thisWeek": 32,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 53,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 48,
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 17,
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
@@ -114,7 +109,7 @@
       "delta": 100
     },
     "embeddings": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     }
