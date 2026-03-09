@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T01:27:53.933Z",
+  "updatedAt": "2026-03-09T04:11:23.064Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -17,7 +17,7 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -26,12 +26,12 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
+    "huggingface": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
+    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -49,22 +49,42 @@
   },
   "topics": {
     "pricing": {
-      "thisWeek": 31,
+      "thisWeek": 30,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 53,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 84,
+      "thisWeek": 87,
       "lastWeek": 1,
-      "delta": 8300
+      "delta": 8600
     },
-    "rag": {
-      "thisWeek": 31,
+    "vision": {
+      "thisWeek": 34,
+      "lastWeek": 1,
+      "delta": 3300
+    },
+    "latency": {
+      "thisWeek": 34,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 53,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 11,
+      "thisWeek": 10,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,30 +93,10 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 54,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 48,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "embeddings": {
       "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
-    },
-    "latency": {
-      "thisWeek": 35,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 35,
-      "lastWeek": 1,
-      "delta": 3400
     },
     "safety": {
       "thisWeek": 14,
