@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T09:42:50.193Z",
+  "updatedAt": "2026-03-09T10:39:46.169Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -11,13 +11,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
-      "thisWeek": 4,
+    "claude-code": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 1,
+    "langchain": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -54,17 +54,12 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 79,
+      "thisWeek": 76,
       "lastWeek": 1,
-      "delta": 7800
+      "delta": 7500
     },
     "infra": {
-      "thisWeek": 51,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 24,
+      "thisWeek": 49,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,10 +68,15 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "rag": {
+      "thisWeek": 25,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "vision": {
-      "thisWeek": 38,
+      "thisWeek": 37,
       "lastWeek": 1,
-      "delta": 3700
+      "delta": 3600
     },
     "latency": {
       "thisWeek": 29,
