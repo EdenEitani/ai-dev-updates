@@ -1,13 +1,18 @@
 {
-  "updatedAt": "2026-03-12T06:45:14.349Z",
+  "updatedAt": "2026-03-12T07:42:11.092Z",
   "tools": {
+    "replit": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -16,13 +21,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
-      "thisWeek": 4,
+    "llama": {
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -41,13 +46,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 3,
+    "supabase": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "supabase": {
-      "thisWeek": 1,
+    "copilot": {
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -59,32 +64,37 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 71,
-      "lastWeek": 2,
-      "delta": 3450
+      "thisWeek": 69,
+      "lastWeek": 1,
+      "delta": 6800
     },
     "vision": {
-      "thisWeek": 24,
+      "thisWeek": 25,
       "lastWeek": 1,
-      "delta": 2300
+      "delta": 2400
+    },
+    "infra": {
+      "thisWeek": 42,
+      "lastWeek": 1,
+      "delta": 4100
     },
     "latency": {
-      "thisWeek": 29,
-      "lastWeek": 1,
-      "delta": 2800
+      "thisWeek": 30,
+      "lastWeek": 0,
+      "delta": 100
     },
     "pricing": {
-      "thisWeek": 20,
+      "thisWeek": 18,
       "lastWeek": 1,
-      "delta": 1900
+      "delta": 1700
     },
     "safety": {
-      "thisWeek": 6,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 14,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
@@ -92,11 +102,6 @@
       "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
-    },
-    "infra": {
-      "thisWeek": 42,
-      "lastWeek": 1,
-      "delta": 4100
     },
     "evals": {
       "thisWeek": 29,
