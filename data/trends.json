@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-12T09:36:51.065Z",
+  "updatedAt": "2026-03-12T10:33:07.640Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -52,7 +52,7 @@
       "delta": 100
     },
     "cursor": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -74,12 +74,12 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 63,
+      "thisWeek": 60,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 20,
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
@@ -89,22 +89,22 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 6,
+      "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 39,
+      "thisWeek": 37,
       "lastWeek": 1,
-      "delta": 3800
+      "delta": 3600
     },
-    "latency": {
-      "thisWeek": 28,
+    "evals": {
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
-    "safety": {
-      "thisWeek": 9,
+    "latency": {
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
@@ -118,8 +118,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 29,
+    "safety": {
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     }
