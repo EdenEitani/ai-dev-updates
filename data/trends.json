@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-13T21:27:21.431Z",
+  "updatedAt": "2026-03-13T22:22:31.877Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -26,6 +26,26 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "llama": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "replit": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "cursor": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "huggingface": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "crewai": {
       "thisWeek": 1,
       "lastWeek": 0,
@@ -35,56 +55,41 @@
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
-    },
-    "replit": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "llama": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "huggingface": {
-      "thisWeek": 3,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "copilot": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
     "pricing": {
-      "thisWeek": 22,
+      "thisWeek": 20,
       "lastWeek": 1,
-      "delta": 2100
+      "delta": 1900
     },
     "agents": {
       "thisWeek": 72,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 48,
-      "lastWeek": 1,
-      "delta": 4700
-    },
     "safety": {
-      "thisWeek": 7,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 18,
+    "infra": {
+      "thisWeek": 47,
+      "lastWeek": 1,
+      "delta": 4600
+    },
+    "latency": {
+      "thisWeek": 26,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 21,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
@@ -93,18 +98,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 19,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 30,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 28,
+    "rag": {
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
