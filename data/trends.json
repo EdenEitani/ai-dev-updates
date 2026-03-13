@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-03-13T04:07:09.749Z",
+  "updatedAt": "2026-03-13T05:43:35.500Z",
   "tools": {
     "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -26,18 +16,33 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "cursor": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "langchain": {
-      "thisWeek": 4,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
     "autogen": {
       "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -50,11 +55,6 @@
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
-    },
-    "copilot": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
@@ -64,17 +64,17 @@
       "delta": 100
     },
     "safety": {
-      "thisWeek": 5,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 35,
+      "thisWeek": 36,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 34,
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
@@ -84,29 +84,29 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 30,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 21,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 5,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 46,
+      "thisWeek": 43,
       "lastWeek": 1,
-      "delta": 4500
+      "delta": 4200
     },
     "pricing": {
-      "thisWeek": 20,
+      "thisWeek": 18,
       "lastWeek": 1,
-      "delta": 1900
+      "delta": 1700
     },
     "embeddings": {
       "thisWeek": 4,
