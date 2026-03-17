@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T11:39:21.062Z",
+  "updatedAt": "2026-03-17T12:57:12.283Z",
   "tools": {
     "huggingface": {
       "thisWeek": 4,
@@ -59,32 +59,32 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 22,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 26,
+    "rag": {
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
-    },
-    "infra": {
-      "thisWeek": 52,
-      "lastWeek": 1,
-      "delta": 5100
     },
     "pricing": {
       "thisWeek": 19,
       "lastWeek": 1,
       "delta": 1800
     },
-    "fine-tuning": {
-      "thisWeek": 8,
+    "infra": {
+      "thisWeek": 52,
+      "lastWeek": 1,
+      "delta": 5100
+    },
+    "latency": {
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 12,
+    "fine-tuning": {
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,12 +99,12 @@
       "delta": 100
     },
     "safety": {
-      "thisWeek": 9,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 10,
+    "evals": {
+      "thisWeek": 12,
       "lastWeek": 0,
       "delta": 100
     }
