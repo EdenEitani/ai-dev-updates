@@ -21,17 +21,21 @@
       "e2ca9bff0c68",
       "70d65581024a"
     ],
-    "cursor": [
-      "fcf99c4d3f00",
-      "c8be2c9fb3b4",
-      "55866b22e85a",
-      "823ffe02589b"
+    "llama": [
+      "eabf42dedb3b",
+      "f406c99c123d",
+      "b9e366fd429c",
+      "73e31d87ea4c"
     ],
     "langchain": [
       "777caae1793c",
       "241d4b520d18",
       "d19d6656ab9c",
       "2e2d573d9944"
+    ],
+    "cursor": [
+      "fcf99c4d3f00",
+      "c8be2c9fb3b4"
     ],
     "vercel-ai-sdk": [
       "dc69995a37f5",
@@ -41,12 +45,6 @@
     ],
     "pinecone": [
       "241d4b520d18"
-    ],
-    "llama": [
-      "f406c99c123d",
-      "b314a4754177",
-      "b9e366fd429c",
-      "73e31d87ea4c"
     ],
     "supabase": [
       "6d69e7688fc9"
@@ -61,29 +59,35 @@
   "industry": {
     "devtools": [
       "8afdb503cc56",
-      "e8d586f43544",
-      "c5c8dadfeb90",
-      "fcf99c4d3f00",
+      "70c9a0d6d426",
+      "eabf42dedb3b",
       "85857324a333",
-      "73b796f6e43c",
+      "ecf6d8efee78",
+      "84be9b36b7c6",
+      "454f4767f02a",
       "b6a4a49a2de1",
       "3b57cb7566d3",
+      "1958bb1ca12c",
+      "7f16c046bcce",
       "f61f1960a35f",
       "6ae6064a5fe4",
       "8739fd408d06",
       "1fddbdb11f74",
       "6734796bfb44",
-      "a1e1cc9cba4c",
+      "e8d586f43544",
       "100d9b5b694a",
+      "c5c8dadfeb90",
+      "fcf99c4d3f00",
       "74a414a12394",
-      "2d7603c5ae80",
       "dc69995a37f5",
       "c09767ad9115",
       "b92f51294d82",
       "cfaf4bd88a30",
+      "8db0ded8c363",
       "6df49e2830fb",
       "241d4b520d18",
       "b2d23ba24758",
+      "73b796f6e43c",
       "fc9229066857",
       "f5dfc61d1714",
       "d19d6656ab9c",
@@ -92,6 +96,7 @@
       "407f6a104d2b",
       "43c5f7885350",
       "86dcfe05fbf6",
+      "a1e1cc9cba4c",
       "6d69e7688fc9",
       "20f69a5bdc17",
       "d5efafec6be6",
@@ -104,8 +109,7 @@
       "2e2d573d9944",
       "0451b6a6fc08",
       "e642fbe2ed64",
-      "b96c5a9650c2",
-      "55866b22e85a",
+      "2d7603c5ae80",
       "5d4a87d6b320",
       "3fcf13d201b7",
       "ea3f72fa17a3",
@@ -116,8 +120,8 @@
       "9b047d6f6fa7",
       "4d84f4210c05",
       "ca8bebf10ad8",
+      "25b0770d76e8",
       "ee5c7fe2d643",
-      "908daf159a45",
       "b940d18a66ca",
       "156dfefcb429",
       "9c45d7fe34a3",
@@ -131,6 +135,7 @@
       "2da96fd5a394",
       "8c83e836e4ac",
       "2994ed1ff1ba",
+      "94718248aa17",
       "8129d9401391",
       "79f64a247e2a",
       "66f9e1ab245e",
@@ -140,9 +145,6 @@
       "fb4a56f4b528",
       "319e66718a93",
       "cf1adf5268be",
-      "46e46d1ec056",
-      "98898e7eb413",
-      "823ffe02589b",
       "edce932b5b4b",
       "b20fa6aaa426",
       "bf7c65f93045",
@@ -153,14 +155,13 @@
       "cea09b937893",
       "ff8b38b46c6a",
       "018a44be11b4",
-      "12d00de0f387",
-      "bb62d2238c6c",
-      "44e0f9d503ef"
+      "12d00de0f387"
     ],
     "security": [
+      "eabf42dedb3b",
       "e8d586f43544",
-      "fcf99c4d3f00",
       "2fa902658633",
+      "fcf99c4d3f00",
       "98946edde47d",
       "6df49e2830fb",
       "b2d23ba24758",
@@ -181,38 +182,46 @@
       "66f9e1ab245e",
       "269ac7232e9b",
       "ff8b38b46c6a",
-      "61aaedbfe982",
-      "44e0f9d503ef"
+      "61aaedbfe982"
     ],
     "education": [
       "53b4490fe872",
       "3b57cb7566d3",
+      "8db0ded8c363",
       "f5dfc61d1714",
       "56e47b524a6c",
+      "a76c61bcced6",
       "ea0c877f1fd1",
       "a1e6a458a27d",
       "9faa3b3c5bfb",
       "0220ebeb4f04",
       "8741b320b6b7",
+      "94718248aa17",
       "1a0df86ffda1",
       "bf7c65f93045",
       "2978544ed5a7",
       "caf0e4912242"
     ],
     "fintech": [
+      "454f4767f02a",
       "b6a4a49a2de1",
       "6ae6064a5fe4",
       "407f6a104d2b",
       "d7de95fc3d8a",
       "20f69a5bdc17",
       "bf053a85571b",
-      "b96c5a9650c2",
       "25cf4f9abbec",
       "597419cd09b8",
       "cf1adf5268be",
       "b20fa6aaa426"
     ],
+    "healthcare": [
+      "454f4767f02a",
+      "f5dfc61d1714",
+      "edce932b5b4b"
+    ],
     "enterprise": [
+      "1958bb1ca12c",
       "777caae1793c",
       "100d9b5b694a",
       "2fa902658633",
@@ -230,10 +239,6 @@
       "50b58847e7eb",
       "61aaedbfe982"
     ],
-    "healthcare": [
-      "f5dfc61d1714",
-      "edce932b5b4b"
-    ],
     "ecommerce": [
       "0db1876c9bb3",
       "9c45d7fe34a3",
@@ -246,6 +251,7 @@
   "topic": {
     "evals": [
       "3770cc6a65bb",
+      "454f4767f02a",
       "70d65581024a",
       "89c18e2d9697",
       "74a414a12394",
@@ -259,7 +265,6 @@
       "a48cd9017557",
       "4d84f4210c05",
       "e2f15a7fe3de",
-      "03324440fd22",
       "2970edbed5ab",
       "db2a5bb043c8",
       "51dca29b2d25"
@@ -269,12 +274,12 @@
       "b6a4a49a2de1",
       "70d65581024a",
       "8739fd408d06",
-      "a1e1cc9cba4c",
       "f70ae2ce22e1",
       "2c5d6beb2d85",
       "f6b0a1aeb7f9",
       "b2d23ba24758",
       "8174fade4bb1",
+      "a1e1cc9cba4c",
       "3b522763ee6f",
       "7164264fa03e",
       "2e2d573d9944",
@@ -314,11 +319,13 @@
     ],
     "pricing": [
       "3770cc6a65bb",
-      "73b796f6e43c",
+      "70c9a0d6d426",
       "3b57cb7566d3",
       "70d65581024a",
+      "fafcaf5fd543",
       "8739fd408d06",
       "bfef321c2b1d",
+      "73b796f6e43c",
       "d419d4e85b03",
       "43c5f7885350",
       "7164264fa03e",
@@ -334,16 +341,22 @@
       "8f3b84a80ec7",
       "8afdb503cc56",
       "e2ca9bff0c68",
+      "70c9a0d6d426",
+      "eabf42dedb3b",
       "53b4490fe872",
+      "ecf6d8efee78",
+      "84be9b36b7c6",
+      "454f4767f02a",
       "70d65581024a",
       "9cb00b5d024c",
       "fabaeb61c626",
+      "fafcaf5fd543",
+      "7f16c046bcce",
       "777caae1793c",
       "6ae6064a5fe4",
       "8739fd408d06",
       "2fa902658633",
       "bfef321c2b1d",
-      "87f94ec4dec7",
       "98946edde47d",
       "6df49e2830fb",
       "241d4b520d18",
@@ -364,7 +377,7 @@
       "72682fc81aa8",
       "2e2d573d9944",
       "0451b6a6fc08",
-      "55866b22e85a",
+      "87f94ec4dec7",
       "1a1e44cf4d81",
       "9b047d6f6fa7",
       "ca8bebf10ad8",
@@ -390,21 +403,19 @@
       "2978544ed5a7",
       "caf0e4912242",
       "ff8b38b46c6a",
-      "61aaedbfe982",
-      "bb62d2238c6c",
-      "44e0f9d503ef"
+      "61aaedbfe982"
     ],
     "vision": [
       "8f3b84a80ec7",
       "8afdb503cc56",
       "c5c8dadfeb90",
-      "a1e1cc9cba4c",
       "d419d4e85b03",
+      "a1e1cc9cba4c",
       "5699738aa4ef",
-      "b314a4754177",
       "12326f5a837f",
       "9faa3b3c5bfb",
       "0220ebeb4f04",
+      "94718248aa17",
       "cf1adf5268be",
       "1a0df86ffda1",
       "5fa24ff3a84c",
@@ -414,6 +425,8 @@
       "c99630e2b969"
     ],
     "rag": [
+      "70c9a0d6d426",
+      "eabf42dedb3b",
       "c5c8dadfeb90",
       "fcf99c4d3f00",
       "241d4b520d18",
@@ -429,19 +442,23 @@
       "619240a96723",
       "b873cfe0d80f"
     ],
-    "voice": [
-      "c5c8dadfeb90",
-      "e86ae8aa8923",
-      "794fc3ba9d3d",
-      "51dca29b2d25"
-    ],
-    "fine-tuning": [
-      "1fddbdb11f74",
-      "6734796bfb44",
+    "safety": [
+      "ecf6d8efee78",
+      "454f4767f02a",
+      "d419d4e85b03",
+      "f062b462799c",
       "e642fbe2ed64",
-      "8741b320b6b7"
+      "87f94ec4dec7",
+      "25b0770d76e8",
+      "8eebd34d89fc",
+      "652acb21c23c",
+      "2970edbed5ab",
+      "8741b320b6b7",
+      "269ac7232e9b",
+      "61aaedbfe982"
     ],
     "latency": [
+      "1958bb1ca12c",
       "f7a295874d98",
       "b2d23ba24758",
       "f5dfc61d1714",
@@ -464,17 +481,18 @@
       "bf7c65f93045",
       "58bf23cbb0e5"
     ],
-    "safety": [
-      "87f94ec4dec7",
-      "d419d4e85b03",
-      "f062b462799c",
+    "fine-tuning": [
+      "7f16c046bcce",
+      "1fddbdb11f74",
+      "6734796bfb44",
       "e642fbe2ed64",
-      "8eebd34d89fc",
-      "652acb21c23c",
-      "2970edbed5ab",
-      "8741b320b6b7",
-      "269ac7232e9b",
-      "61aaedbfe982"
+      "8741b320b6b7"
+    ],
+    "voice": [
+      "c5c8dadfeb90",
+      "e86ae8aa8923",
+      "794fc3ba9d3d",
+      "51dca29b2d25"
     ],
     "embeddings": [
       "241d4b520d18"
@@ -486,6 +504,7 @@
       "8f3b84a80ec7",
       "8afdb503cc56",
       "e2ca9bff0c68",
+      "eabf42dedb3b",
       "85857324a333",
       "b6a4a49a2de1",
       "3b57cb7566d3",
@@ -494,6 +513,7 @@
       "fabaeb61c626",
       "d2f20a6d1a96",
       "751bce969837",
+      "fafcaf5fd543",
       "f61f1960a35f",
       "777caae1793c",
       "89c18e2d9697",
@@ -501,7 +521,6 @@
       "8739fd408d06",
       "1fddbdb11f74",
       "6734796bfb44",
-      "a1e1cc9cba4c",
       "8d652b4efd4c",
       "2c0b91497343",
       "f70ae2ce22e1",
@@ -550,6 +569,7 @@
       "e86ae8aa8923",
       "f406c99c123d",
       "8174fade4bb1",
+      "a1e1cc9cba4c",
       "5699738aa4ef",
       "6d69e7688fc9",
       "20f69a5bdc17",
@@ -580,7 +600,6 @@
       "f062b462799c",
       "a48cd9017557",
       "2e2d573d9944",
-      "b314a4754177",
       "0451b6a6fc08",
       "e642fbe2ed64",
       "49be84ea75d8",
@@ -719,9 +738,7 @@
       "5d53b4b29132",
       "ca607a9c0454",
       "aed63bee128b",
-      "61aaedbfe982",
-      "bb62d2238c6c",
-      "44e0f9d503ef"
+      "61aaedbfe982"
     ],
     "benchmark": [
       "3770cc6a65bb",
@@ -735,27 +752,28 @@
       "a48cd9017557",
       "4d84f4210c05",
       "e2f15a7fe3de",
-      "03324440fd22",
       "12d00de0f387",
       "61aaedbfe982"
     ],
     "tutorial": [
-      "e8d586f43544",
+      "70c9a0d6d426",
       "53b4490fe872",
-      "73b796f6e43c",
+      "ecf6d8efee78",
+      "454f4767f02a",
       "b6a4a49a2de1",
       "6ae6064a5fe4",
       "8739fd408d06",
       "1fddbdb11f74",
       "6734796bfb44",
+      "e8d586f43544",
       "74a414a12394",
+      "73b796f6e43c",
       "86dcfe05fbf6",
       "6d69e7688fc9",
       "de5c90d2017b",
       "9b047d6f6fa7",
       "ca8bebf10ad8",
       "ee5c7fe2d643",
-      "908daf159a45",
       "b940d18a66ca",
       "156dfefcb429",
       "49b9e83fcba8",
@@ -769,13 +787,13 @@
       "aed63bee128b"
     ],
     "incident": [
-      "e8d586f43544",
-      "fcf99c4d3f00",
+      "454f4767f02a",
       "3b57cb7566d3",
+      "e8d586f43544",
       "f70ae2ce22e1",
+      "fcf99c4d3f00",
       "6df49e2830fb",
       "81102ad0ad5c",
-      "401c8e54700e",
       "43c5f7885350",
       "5699738aa4ef",
       "143ee51d1220",
@@ -787,11 +805,11 @@
       "9c45d7fe34a3",
       "353ec0938d9d",
       "0810021db4e1",
+      "401c8e54700e",
       "8741b320b6b7",
       "6ad0bf2402ac",
       "12d00de0f387",
-      "4ba67f54df68",
-      "44e0f9d503ef"
+      "4ba67f54df68"
     ],
     "research": [
       "9cb00b5d024c",
@@ -815,6 +833,7 @@
       "e642fbe2ed64",
       "49be84ea75d8",
       "1a1e44cf4d81",
+      "25b0770d76e8",
       "e2f15a7fe3de",
       "652acb21c23c",
       "d009f078c2d8",
@@ -832,8 +851,7 @@
       "319e66718a93",
       "81fc8ac89ff7",
       "edce932b5b4b",
-      "ff8b38b46c6a",
-      "44e0f9d503ef"
+      "ff8b38b46c6a"
     ],
     "roadmap": [
       "bfef321c2b1d",
@@ -852,7 +870,8 @@
       "8954ef49f7ff",
       "353ec0938d9d",
       "0810021db4e1",
-      "e2f15a7fe3de"
+      "e2f15a7fe3de",
+      "94718248aa17"
     ]
   }
 }

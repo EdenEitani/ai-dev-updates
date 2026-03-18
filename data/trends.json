@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-18T10:44:30.179Z",
+  "updatedAt": "2026-03-18T11:41:03.828Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -21,13 +21,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "cursor": {
+    "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "langchain": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "cursor": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -38,11 +43,6 @@
     },
     "pinecone": {
       "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "llama": {
-      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -74,12 +74,12 @@
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 15,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 62,
+      "thisWeek": 66,
       "lastWeek": 0,
       "delta": 100
     },
@@ -89,27 +89,27 @@
       "delta": 100
     },
     "rag": {
-      "thisWeek": 14,
+      "thisWeek": 16,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 13,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 22,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "fine-tuning": {
+      "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
       "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "fine-tuning": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 21,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 10,
       "lastWeek": 0,
       "delta": 100
     },
