@@ -1,27 +1,22 @@
 {
-  "updatedAt": "2026-03-18T19:45:04.866Z",
+  "updatedAt": "2026-03-18T20:29:24.299Z",
   "tools": {
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "huggingface": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "anthropic": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "claude-code": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vercel-ai-sdk": {
+    "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -31,13 +26,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
+    "anthropic": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "claude-code": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 4,
+    "copilot": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -57,7 +57,7 @@
       "delta": 100
     },
     "cursor": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     }
@@ -69,27 +69,27 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 49,
+      "thisWeek": 48,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 20,
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 65,
+      "thisWeek": 62,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 22,
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 24,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,7 +99,7 @@
       "delta": 100
     },
     "rag": {
-      "thisWeek": 18,
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
@@ -109,7 +109,7 @@
       "delta": 100
     },
     "safety": {
-      "thisWeek": 11,
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     }
