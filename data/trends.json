@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-19T10:34:14.097Z",
+  "updatedAt": "2026-03-19T11:31:19.231Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -17,7 +17,12 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 1,
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "cursor": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -54,17 +59,17 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 56,
+      "thisWeek": 59,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 24,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 72,
+      "thisWeek": 69,
       "lastWeek": 0,
       "delta": 100
     },
@@ -78,8 +83,13 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "latency": {
+      "thisWeek": 27,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "fine-tuning": {
-      "thisWeek": 11,
+      "thisWeek": 12,
       "lastWeek": 0,
       "delta": 100
     },
@@ -88,13 +98,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 24,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "rag": {
-      "thisWeek": 15,
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     }
