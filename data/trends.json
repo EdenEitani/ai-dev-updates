@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-19T08:35:20.999Z",
+  "updatedAt": "2026-03-19T09:37:09.342Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -54,22 +54,22 @@
   },
   "topics": {
     "evals": {
-      "thisWeek": 21,
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 52,
+      "thisWeek": 57,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 25,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 75,
+      "thisWeek": 72,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,18 +83,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "fine-tuning": {
       "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 19,
+      "thisWeek": 18,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
