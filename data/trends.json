@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T06:45:50.529Z",
+  "updatedAt": "2026-03-20T07:41:48.766Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -22,7 +22,7 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -41,16 +41,6 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "crewai": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "autogen": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "supabase": {
       "thisWeek": 1,
       "lastWeek": 0,
@@ -59,17 +49,17 @@
   },
   "topics": {
     "evals": {
-      "thisWeek": 28,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 59,
+      "thisWeek": 56,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 28,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
@@ -79,7 +69,7 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 27,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,7 +89,7 @@
       "delta": 100
     },
     "rag": {
-      "thisWeek": 14,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
