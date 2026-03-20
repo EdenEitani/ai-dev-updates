@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T13:57:56.447Z",
+  "updatedAt": "2026-03-20T14:41:58.975Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -59,52 +59,57 @@
   },
   "topics": {
     "evals": {
-      "thisWeek": 27,
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 52,
+      "thisWeek": 48,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 22,
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 9,
+      "thisWeek": 10,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 74,
+      "thisWeek": 73,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 25,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 20,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 7,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "fine-tuning": {
-      "thisWeek": 12,
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 13,
+      "thisWeek": 15,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "embeddings": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 6,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "fine-tuning": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     }
