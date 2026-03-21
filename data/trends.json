@@ -1,11 +1,6 @@
 {
-  "updatedAt": "2026-03-20T23:23:07.595Z",
+  "updatedAt": "2026-03-21T01:22:24.478Z",
   "tools": {
-    "vercel-ai-sdk": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "cursor": {
       "thisWeek": 2,
       "lastWeek": 0,
@@ -21,18 +16,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 2,
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "anthropic": {
       "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "claude-code": {
-      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -46,8 +36,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "copilot": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "crewai": {
       "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "claude-code": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -63,13 +63,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 29,
+    "infra": {
+      "thisWeek": 49,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 48,
+    "evals": {
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
@@ -79,32 +79,32 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 78,
+      "thisWeek": 79,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 24,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 14,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 15,
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 5,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 16,
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
