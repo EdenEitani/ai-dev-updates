@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-22T22:19:32.627Z",
+  "updatedAt": "2026-03-22T23:21:43.839Z",
   "tools": {
     "llama": {
       "thisWeek": 4,
@@ -27,7 +27,7 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -42,12 +42,7 @@
       "delta": 100
     },
     "crewai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "autogen": {
-      "thisWeek": 1,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,7 +64,7 @@
   },
   "topics": {
     "vision": {
-      "thisWeek": 27,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
@@ -79,7 +74,7 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 57,
+      "thisWeek": 55,
       "lastWeek": 0,
       "delta": 100
     },
@@ -89,7 +84,7 @@
       "delta": 100
     },
     "evals": {
-      "thisWeek": 24,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,7 +94,7 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 82,
+      "thisWeek": 80,
       "lastWeek": 0,
       "delta": 100
     },
@@ -114,7 +109,7 @@
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 9,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     }
