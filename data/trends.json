@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-25T08:52:39.521Z",
+  "updatedAt": "2026-03-25T09:47:02.864Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -69,27 +69,27 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 65,
+      "thisWeek": 66,
       "lastWeek": 1,
-      "delta": 6400
+      "delta": 6500
     },
-    "infra": {
-      "thisWeek": 67,
+    "pricing": {
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 25,
+      "thisWeek": 26,
       "lastWeek": 1,
-      "delta": 2400
+      "delta": 2500
     },
     "evals": {
-      "thisWeek": 33,
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
     },
-    "pricing": {
-      "thisWeek": 23,
+    "infra": {
+      "thisWeek": 63,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,12 +99,12 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 24,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 17,
+    "voice": {
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
@@ -113,8 +113,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 6,
+    "rag": {
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
