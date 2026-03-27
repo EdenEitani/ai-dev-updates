@@ -1,6 +1,11 @@
 {
-  "updatedAt": "2026-03-27T06:09:44.918Z",
+  "updatedAt": "2026-03-27T07:57:05.327Z",
   "tools": {
+    "huggingface": {
+      "thisWeek": 2,
+      "lastWeek": 1,
+      "delta": 100
+    },
     "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -9,11 +14,6 @@
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
-      "delta": 100
-    },
-    "huggingface": {
-      "thisWeek": 2,
-      "lastWeek": 1,
       "delta": 100
     },
     "litellm": {
@@ -37,7 +37,7 @@
       "delta": 100
     },
     "cursor": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -47,17 +47,12 @@
       "delta": 100
     },
     "copilot": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     }
   },
   "topics": {
-    "pricing": {
-      "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "evals": {
       "thisWeek": 34,
       "lastWeek": 0,
@@ -69,32 +64,32 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 23,
+      "thisWeek": 27,
       "lastWeek": 1,
-      "delta": 2200
+      "delta": 2600
     },
-    "rag": {
-      "thisWeek": 18,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 19,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 55,
+    "pricing": {
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 66,
+      "thisWeek": 64,
       "lastWeek": 1,
-      "delta": 6500
+      "delta": 6300
+    },
+    "fine-tuning": {
+      "thisWeek": 12,
+      "lastWeek": 0,
+      "delta": 100
     },
     "voice": {
       "thisWeek": 12,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
@@ -103,8 +98,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "fine-tuning": {
-      "thisWeek": 11,
+    "rag": {
+      "thisWeek": 19,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 56,
       "lastWeek": 0,
       "delta": 100
     }
