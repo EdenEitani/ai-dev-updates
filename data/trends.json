@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T06:51:27.623Z",
+  "updatedAt": "2026-03-28T07:40:52.627Z",
   "tools": {
     "huggingface": {
       "thisWeek": 4,
@@ -31,12 +31,12 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "anthropic": {
+    "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
+    "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -54,12 +54,12 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 66,
+      "thisWeek": 69,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 37,
+      "thisWeek": 35,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,17 +69,17 @@
       "delta": 100
     },
     "evals": {
-      "thisWeek": 26,
+      "thisWeek": 27,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 28,
+      "thisWeek": 27,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 58,
+      "thisWeek": 57,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,12 +99,12 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 19,
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 6,
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     }
