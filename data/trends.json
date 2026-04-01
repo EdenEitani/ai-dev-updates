@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T06:24:14.370Z",
+  "updatedAt": "2026-04-01T08:12:55.719Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -11,13 +11,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
+    "cursor": {
+      "thisWeek": 2,
+      "lastWeek": 1,
       "delta": 100
     },
     "claude-code": {
       "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "openai": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -31,22 +36,17 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 3,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "cursor": {
-      "thisWeek": 2,
-      "lastWeek": 1,
+    "llama": {
+      "thisWeek": 4,
+      "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "copilot": {
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
@@ -59,42 +59,42 @@
   },
   "topics": {
     "pricing": {
-      "thisWeek": 19,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 50,
+      "thisWeek": 48,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 21,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 17,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 53,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 35,
+      "thisWeek": 37,
       "lastWeek": 1,
-      "delta": 3400
+      "delta": 3600
+    },
+    "rag": {
+      "thisWeek": 22,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 16,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 52,
+      "lastWeek": 0,
+      "delta": 100
     },
     "evals": {
-      "thisWeek": 30,
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
