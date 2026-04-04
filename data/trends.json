@@ -1,14 +1,19 @@
 {
-  "updatedAt": "2026-04-03T23:27:50.718Z",
+  "updatedAt": "2026-04-04T01:42:19.840Z",
   "tools": {
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
-      "thisWeek": 4,
-      "lastWeek": 0,
+    "huggingface": {
+      "thisWeek": 2,
+      "lastWeek": 1,
       "delta": 100
     },
     "openai": {
@@ -21,19 +26,14 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
-      "thisWeek": 2,
-      "lastWeek": 1,
+    "crewai": {
+      "thisWeek": 1,
+      "lastWeek": 0,
       "delta": 100
     },
     "cursor": {
@@ -49,7 +49,7 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 59,
+      "thisWeek": 61,
       "lastWeek": 0,
       "delta": 100
     },
@@ -59,22 +59,12 @@
       "delta": 1850
     },
     "rag": {
-      "thisWeek": 13,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 16,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 22,
-      "lastWeek": 1,
-      "delta": 2100
     },
     "safety": {
-      "thisWeek": 16,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
@@ -84,12 +74,12 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 5,
+      "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 3,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -97,6 +87,16 @@
       "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
+    },
+    "pricing": {
+      "thisWeek": 15,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 22,
+      "lastWeek": 1,
+      "delta": 2100
     },
     "embeddings": {
       "thisWeek": 4,
