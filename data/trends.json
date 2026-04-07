@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-07T11:48:51.971Z",
+  "updatedAt": "2026-04-07T13:05:55.952Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -16,13 +16,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "langchain": {
-      "thisWeek": 3,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -31,28 +26,33 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "vercel-ai-sdk": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "litellm": {
+      "thisWeek": 2,
+      "lastWeek": 1,
+      "delta": 100
+    },
     "huggingface": {
       "thisWeek": 3,
       "lastWeek": 1,
       "delta": 200
     },
-    "windsurf": {
-      "thisWeek": 1,
+    "cursor": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "copilot": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "litellm": {
-      "thisWeek": 1,
-      "lastWeek": 1,
-      "delta": 0
-    },
-    "cursor": {
-      "thisWeek": 2,
+    "windsurf": {
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,17 +69,22 @@
   },
   "topics": {
     "rag": {
-      "thisWeek": 31,
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 22,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 47,
+      "thisWeek": 46,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "agents": {
+      "thisWeek": 54,
       "lastWeek": 0,
       "delta": 100
     },
@@ -88,13 +93,8 @@
       "lastWeek": 1,
       "delta": 2600
     },
-    "agents": {
-      "thisWeek": 54,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "voice": {
-      "thisWeek": 10,
+      "thisWeek": 12,
       "lastWeek": 0,
       "delta": 100
     },
@@ -109,12 +109,12 @@
       "delta": 2400
     },
     "pricing": {
-      "thisWeek": 23,
+      "thisWeek": 22,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 24,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
