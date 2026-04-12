@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-04-12T10:33:05.513Z",
+  "updatedAt": "2026-04-12T11:29:13.845Z",
   "tools": {
-    "anthropic": {
+    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -11,7 +11,7 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "openai": {
+    "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -23,6 +23,11 @@
     },
     "langchain": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "aider": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -63,6 +68,31 @@
     }
   },
   "topics": {
+    "agents": {
+      "thisWeek": 58,
+      "lastWeek": 2,
+      "delta": 2800
+    },
+    "voice": {
+      "thisWeek": 12,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "pricing": {
+      "thisWeek": 20,
+      "lastWeek": 1,
+      "delta": 1900
+    },
+    "evals": {
+      "thisWeek": 25,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 13,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "rag": {
       "thisWeek": 32,
       "lastWeek": 0,
@@ -78,43 +108,18 @@
       "lastWeek": 1,
       "delta": 4700
     },
-    "agents": {
-      "thisWeek": 58,
-      "lastWeek": 2,
-      "delta": 2800
-    },
-    "evals": {
-      "thisWeek": 26,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 13,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "embeddings": {
-      "thisWeek": 3,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
+    "vision": {
       "thisWeek": 19,
       "lastWeek": 1,
       "delta": 1800
     },
-    "vision": {
-      "thisWeek": 21,
-      "lastWeek": 1,
-      "delta": 2000
-    },
-    "fine-tuning": {
-      "thisWeek": 5,
+    "embeddings": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 11,
+    "fine-tuning": {
+      "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     }
