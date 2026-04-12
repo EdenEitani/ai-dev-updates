@@ -1,31 +1,31 @@
 {
   "tools": {
     "anthropic": [
-      "79ae92d8bb23",
-      "04ead5539cee",
       "48bff0ee05f4",
-      "6ecb13256ae2"
-    ],
-    "openai": [
-      "04ead5539cee",
-      "d56085c53470",
-      "83d20edf10a7",
-      "6e798fe79a17"
-    ],
-    "aider": [
+      "79ae92d8bb23",
+      "6ecb13256ae2",
       "04ead5539cee"
     ],
     "llama": [
       "48bff0ee05f4",
       "c9936ef87776",
-      "6e798fe79a17",
-      "fb43dbc95c00"
+      "fb43dbc95c00",
+      "07830261eac6"
     ],
     "langchain": [
       "d56085c53470",
+      "07830261eac6",
       "515101140112",
-      "85dc9fbcd51d",
-      "a38b8d24cb82"
+      "85dc9fbcd51d"
+    ],
+    "openai": [
+      "d56085c53470",
+      "04ead5539cee",
+      "84ce14b4904e",
+      "83d20edf10a7"
+    ],
+    "aider": [
+      "04ead5539cee"
     ],
     "vercel-ai-sdk": [
       "207c32afdd24",
@@ -63,23 +63,23 @@
   },
   "industry": {
     "devtools": [
-      "04ead5539cee",
       "48bff0ee05f4",
+      "ec52d1428cb1",
       "4cb311d0e7da",
       "b78db20ac6fd",
       "83b790249480",
       "f9cf726d04fb",
       "ff8f73e61720",
+      "36cd4ab0c7f0",
+      "a18342f6d951",
       "d56085c53470",
-      "83d20edf10a7",
+      "04ead5539cee",
       "a24012315bed",
-      "e4a21edd27c4",
       "207c32afdd24",
       "409128bfa213",
       "78d9da3f76d5",
       "fe9fb0c6896e",
       "0e70cfb4acea",
-      "5d23c22b0506",
       "89783d0cf7fa",
       "59558e08bb52",
       "3a0688fe5be3",
@@ -87,8 +87,8 @@
       "500d364230b6",
       "bcc481b46526",
       "0df914dc7c8f",
-      "663e5e35cc36",
       "5cdb2c94af47",
+      "83d20edf10a7",
       "ce46754e1220",
       "959aeca4e620",
       "a2e6dcee3a42",
@@ -101,6 +101,7 @@
       "4baac6ac828f",
       "374aea74192d",
       "7580157e20e7",
+      "5d23c22b0506",
       "b434c96a75bd",
       "e7a7e5e8e9a7",
       "a47cb67dcd8c",
@@ -118,9 +119,11 @@
       "1489ff61930a",
       "20b7dd219e65",
       "f75efca53aae",
+      "e4a21edd27c4",
       "31f8e2b4eaad",
       "b0cb9c82153b",
       "1663a12ec4a8",
+      "663e5e35cc36",
       "a63ac950e978",
       "6eddf709fdc3",
       "41957dd713e9",
@@ -145,8 +148,6 @@
       "615bfff3c515",
       "4458e6cf7462",
       "0b56fc3ec9eb",
-      "a7bc9f930f6b",
-      "5494bd691c11",
       "bd97103aeacc",
       "791cebe5fe47",
       "7a3ca7a0d21b",
@@ -178,29 +179,12 @@
       "739a5b7e49d0",
       "cef204a045c9",
       "0b4e91bfad16",
-      "f08566e9f5d7",
-      "7aff97601f0d",
-      "4cc133090a84",
-      "78073d85a23f"
-    ],
-    "enterprise": [
-      "c9936ef87776",
-      "71597150bcbf",
-      "a5230016ddcb",
-      "5428d09f25fa",
-      "020f320a7a21",
-      "791cebe5fe47",
-      "8f388e13de09",
-      "e6861dcc05a9"
-    ],
-    "ecommerce": [
-      "4cb311d0e7da",
-      "9e05187c50b8",
-      "0b56fc3ec9eb",
-      "8f388e13de09"
+      "f08566e9f5d7"
     ],
     "security": [
+      "ec52d1428cb1",
       "6ecb13256ae2",
+      "247ced9d8589",
       "111ff97426fa",
       "71597150bcbf",
       "62a2bdd33ded",
@@ -211,6 +195,13 @@
       "bd97103aeacc",
       "b114bb36b86a",
       "8807cdb77e79"
+    ],
+    "ecommerce": [
+      "4cb311d0e7da",
+      "247ced9d8589",
+      "9e05187c50b8",
+      "0b56fc3ec9eb",
+      "8f388e13de09"
     ],
     "fintech": [
       "f9cf726d04fb",
@@ -227,57 +218,72 @@
       "33abed7e957e",
       "176b526ed821"
     ],
+    "gaming": [
+      "36cd4ab0c7f0"
+    ],
+    "enterprise": [
+      "c9936ef87776",
+      "71597150bcbf",
+      "a5230016ddcb",
+      "5428d09f25fa",
+      "020f320a7a21",
+      "791cebe5fe47",
+      "8f388e13de09",
+      "e6861dcc05a9"
+    ],
     "healthcare": [
-      "5d23c22b0506",
       "4d661511f688",
-      "082f1a17451d",
+      "5d23c22b0506",
       "f75efca53aae",
-      "5494bd691c11",
+      "082f1a17451d",
       "8807cdb77e79",
       "739a5b7e49d0",
       "0b4e91bfad16"
     ],
     "education": [
       "5487d2ca6bbc",
-      "082f1a17451d",
       "959aeca4e620",
       "b98524bdd3e5",
       "9de96af3af4a",
       "301d39c9bda3",
       "a3e5a6e71a5b",
+      "082f1a17451d",
       "020f320a7a21",
-      "a7bc9f930f6b",
       "791cebe5fe47",
       "c99032eeae1c",
       "ee447be4d8fe",
       "739a5b7e49d0",
       "176b526ed821",
-      "cef204a045c9",
-      "7aff97601f0d"
+      "cef204a045c9"
     ]
   },
   "topic": {
     "agents": [
-      "79ae92d8bb23",
       "48bff0ee05f4",
+      "2fa3ef6ae0da",
+      "79ae92d8bb23",
       "b78db20ac6fd",
-      "2d672f4add0f",
-      "e4a21edd27c4",
+      "247ced9d8589",
+      "a18342f6d951",
+      "569b10761cb6",
       "b3226e5a629d",
       "0e70cfb4acea",
       "a72535e44c59",
       "fb1de784522a",
       "111ff97426fa",
+      "2d672f4add0f",
       "83f11afee7a4",
       "827e1deaa706",
       "959aeca4e620",
       "54e15955c924",
+      "3d54aa0b04cf",
       "22b1abbf908e",
       "89a03ceaa773",
       "374aea74192d",
       "9e05187c50b8",
       "62a2bdd33ded",
       "a1f6f2634b93",
+      "e4a21edd27c4",
       "31f8e2b4eaad",
       "afe2e7e47909",
       "059f43ed8067",
@@ -290,8 +296,6 @@
       "615bfff3c515",
       "4458e6cf7462",
       "0b56fc3ec9eb",
-      "a7bc9f930f6b",
-      "5494bd691c11",
       "5a93f5ec9e8d",
       "82de87951dd1",
       "2547666f9d42",
@@ -299,7 +303,6 @@
       "a0e4db79bd15",
       "b12b627d4dcc",
       "01447b6ca6bb",
-      "3d54aa0b04cf",
       "60ec9c59e3ac",
       "3e238aa74705",
       "afae4d796c4f",
@@ -315,42 +318,17 @@
       "1aaac79025fc",
       "e6861dcc05a9",
       "d76d3000cc06",
-      "4cc133090a84",
-      "78073d85a23f",
-      "6265dafb3481",
-      "9e69073c868d"
-    ],
-    "pricing": [
-      "04ead5539cee",
-      "4cb311d0e7da",
-      "b3226e5a629d",
-      "89783d0cf7fa",
-      "71597150bcbf",
-      "54e15955c924",
-      "7580157e20e7",
-      "5428d09f25fa",
-      "09e412123201",
-      "6b607670926b",
-      "5188d2d4ad02",
-      "9fd649fef731",
-      "e18b839845e7",
-      "f71065c4890d",
-      "2b20a306696c",
-      "856d4797b3f1",
-      "3e238aa74705",
-      "8f388e13de09",
-      "4baf680eeb4c",
-      "739a5b7e49d0",
-      "176b526ed821",
-      "d76d3000cc06"
+      "86caa890cab3"
     ],
     "evals": [
       "48bff0ee05f4",
+      "2fa3ef6ae0da",
       "fb1de784522a",
       "a3845f5a599f",
       "bcc481b46526",
       "5487d2ca6bbc",
       "ce46754e1220",
+      "3d54aa0b04cf",
       "c41a702054fc",
       "b98524bdd3e5",
       "559adbd24b46",
@@ -371,15 +349,14 @@
       "7a3ca7a0d21b",
       "3bd528530476",
       "7d9d39a743be",
-      "3d54aa0b04cf",
       "739a5b7e49d0",
       "d76d3000cc06"
     ],
     "latency": [
       "48bff0ee05f4",
-      "5d23c22b0506",
       "71597150bcbf",
       "959aeca4e620",
+      "5d23c22b0506",
       "059f43ed8067",
       "41957dd713e9",
       "39cd62d90ccd",
@@ -393,8 +370,8 @@
       "cef204a045c9"
     ],
     "vision": [
-      "c9936ef87776",
       "4cb311d0e7da",
+      "c9936ef87776",
       "1e86427ef5a9",
       "438e2afc0568",
       "a2e6dcee3a42",
@@ -416,8 +393,7 @@
       "48cbbbe7a61c",
       "8807cdb77e79",
       "ba2e2c11bdcb",
-      "e6861dcc05a9",
-      "9e69073c868d"
+      "e6861dcc05a9"
     ],
     "safety": [
       "4cb311d0e7da",
@@ -439,8 +415,31 @@
       "2fe707d8a3b4",
       "a518373d28a0",
       "8203e708ddcd",
-      "33abed7e957e",
-      "78073d85a23f"
+      "33abed7e957e"
+    ],
+    "pricing": [
+      "4cb311d0e7da",
+      "04ead5539cee",
+      "b3226e5a629d",
+      "89783d0cf7fa",
+      "71597150bcbf",
+      "54e15955c924",
+      "7580157e20e7",
+      "5428d09f25fa",
+      "09e412123201",
+      "6b607670926b",
+      "5188d2d4ad02",
+      "9fd649fef731",
+      "e18b839845e7",
+      "f71065c4890d",
+      "2b20a306696c",
+      "856d4797b3f1",
+      "3e238aa74705",
+      "8f388e13de09",
+      "4baf680eeb4c",
+      "739a5b7e49d0",
+      "176b526ed821",
+      "d76d3000cc06"
     ],
     "rag": [
       "f9cf726d04fb",
@@ -479,10 +478,8 @@
     "infra": [
       "f9cf726d04fb",
       "ff8f73e61720",
-      "6e798fe79a17",
       "fe9fb0c6896e",
       "a3845f5a599f",
-      "c73f33300393",
       "4d661511f688",
       "5cdb2c94af47",
       "7049927d54b5",
@@ -497,6 +494,7 @@
       "b9b380e089ca",
       "b256ac9c5cb9",
       "5c3ef9b744a8",
+      "c73f33300393",
       "869666bf0f17",
       "9f3ffc72fb1a",
       "a3e5a6e71a5b",
@@ -528,6 +526,20 @@
       "33abed7e957e",
       "739a5b7e49d0"
     ],
+    "fine-tuning": [
+      "111ff97426fa",
+      "5d23c22b0506",
+      "e4a21edd27c4",
+      "7a3ca7a0d21b",
+      "2fe707d8a3b4",
+      "cef204a045c9"
+    ],
+    "embeddings": [
+      "5487d2ca6bbc",
+      "07830261eac6",
+      "5ab17628b32b",
+      "e03098289748"
+    ],
     "voice": [
       "2d672f4add0f",
       "9de96af3af4a",
@@ -541,39 +553,26 @@
       "b114bb36b86a",
       "8807cdb77e79",
       "0b4e91bfad16"
-    ],
-    "fine-tuning": [
-      "e4a21edd27c4",
-      "5d23c22b0506",
-      "111ff97426fa",
-      "7a3ca7a0d21b",
-      "2fe707d8a3b4",
-      "cef204a045c9"
-    ],
-    "embeddings": [
-      "5487d2ca6bbc",
-      "5ab17628b32b",
-      "e03098289748"
     ]
   },
   "type": {
     "release": [
-      "79ae92d8bb23",
       "48bff0ee05f4",
-      "c9936ef87776",
+      "2fa3ef6ae0da",
       "fc53ef23e8a7",
+      "79ae92d8bb23",
       "4cb311d0e7da",
       "6ecb13256ae2",
       "83b790249480",
-      "2d672f4add0f",
+      "36cd4ab0c7f0",
       "d56085c53470",
+      "c9936ef87776",
       "4aea7ff45131",
       "a24012315bed",
       "b3226e5a629d",
       "af7eefdffe4b",
       "207c32afdd24",
       "409128bfa213",
-      "775018f9c6c0",
       "78d9da3f76d5",
       "fe9fb0c6896e",
       "0e70cfb4acea",
@@ -595,6 +594,8 @@
       "5cbf65c50d0e",
       "25f9a9e11f6e",
       "1c080e0904b4",
+      "2d672f4add0f",
+      "84ce14b4904e",
       "7049927d54b5",
       "c81748b2c02f",
       "ca18c51ab30c",
@@ -620,6 +621,8 @@
       "89a03ceaa773",
       "559adbd24b46",
       "923a1a180497",
+      "07830261eac6",
+      "775018f9c6c0",
       "750bf1a77c0a",
       "fdbd846f5db3",
       "9f67021beefc",
@@ -697,7 +700,6 @@
       "1663a12ec4a8",
       "754cf8596694",
       "85dc9fbcd51d",
-      "a38b8d24cb82",
       "bdcbc395f07c",
       "f3b5188894ad",
       "2cabd6afafa1",
@@ -769,16 +771,18 @@
       "51df2d6dca0d",
       "cef204a045c9",
       "e71710986dc0",
-      "0b4e91bfad16",
-      "9e69073c868d"
+      "0b4e91bfad16"
     ],
     "benchmark": [
       "48bff0ee05f4",
+      "2fa3ef6ae0da",
+      "569b10761cb6",
       "a72535e44c59",
       "bcc481b46526",
-      "082f1a17451d",
+      "3d54aa0b04cf",
       "31f8e2b4eaad",
       "059f43ed8067",
+      "082f1a17451d",
       "39cd62d90ccd",
       "d29fc7df8adc",
       "5188d2d4ad02",
@@ -786,21 +790,19 @@
       "fcc2c75073aa",
       "0b56fc3ec9eb",
       "7d9d39a743be",
-      "3d54aa0b04cf",
       "2b20a306696c",
       "ba2e2c11bdcb",
-      "d76d3000cc06",
-      "7aff97601f0d"
+      "d76d3000cc06"
     ],
     "research": [
       "6ecb13256ae2",
       "a24012315bed",
-      "5d23c22b0506",
       "3a0688fe5be3",
       "4d661511f688",
       "5487d2ca6bbc",
       "b98524bdd3e5",
       "9de96af3af4a",
+      "5d23c22b0506",
       "e3b4f07b82a1",
       "a3e5a6e71a5b",
       "f75efca53aae",
@@ -837,7 +839,6 @@
       "6bd927ea4a1c",
       "e0f056a90e58",
       "5188d2d4ad02",
-      "5494bd691c11",
       "01447b6ca6bb",
       "b332d7a0a6b9",
       "87ad65a96670",
@@ -848,15 +849,13 @@
       "48cbbbe7a61c",
       "ee447be4d8fe",
       "e6861dcc05a9",
-      "f08566e9f5d7",
-      "7aff97601f0d",
-      "78073d85a23f"
+      "f08566e9f5d7"
     ],
     "roadmap": [
       "f9cf726d04fb",
       "ff8f73e61720",
-      "8ab9ccd4ffa1",
       "827e1deaa706",
+      "8ab9ccd4ffa1",
       "b434c96a75bd",
       "e7a7e5e8e9a7",
       "a47cb67dcd8c",
@@ -902,10 +901,7 @@
       "57bfb8bf2efc",
       "780092071331",
       "51df2d6dca0d",
-      "cef204a045c9",
-      "7aff97601f0d",
-      "4cc133090a84",
-      "78073d85a23f"
+      "cef204a045c9"
     ]
   }
 }
