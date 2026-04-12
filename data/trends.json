@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-12T14:37:55.662Z",
+  "updatedAt": "2026-04-12T15:31:04.915Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -26,13 +26,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
-      "thisWeek": 3,
+    "cursor": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "cursor": {
-      "thisWeek": 4,
+    "huggingface": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -59,52 +59,52 @@
   },
   "topics": {
     "evals": {
-      "thisWeek": 28,
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 21,
+      "thisWeek": 20,
       "lastWeek": 1,
-      "delta": 2000
+      "delta": 1900
     },
     "agents": {
-      "thisWeek": 56,
+      "thisWeek": 57,
       "lastWeek": 2,
-      "delta": 2700
+      "delta": 2750
     },
     "latency": {
-      "thisWeek": 12,
+      "thisWeek": 11,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 12,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 22,
+      "thisWeek": 21,
       "lastWeek": 1,
-      "delta": 2100
+      "delta": 2000
     },
-    "embeddings": {
-      "thisWeek": 3,
+    "safety": {
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 42,
+      "thisWeek": 43,
       "lastWeek": 1,
-      "delta": 4100
+      "delta": 4200
     },
-    "rag": {
-      "thisWeek": 26,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 14,
+    "embeddings": {
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
