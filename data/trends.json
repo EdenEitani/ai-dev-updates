@@ -1,7 +1,12 @@
 {
-  "updatedAt": "2026-04-13T16:57:44.304Z",
+  "updatedAt": "2026-04-13T18:00:55.300Z",
   "tools": {
     "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "huggingface": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -26,18 +31,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
+    "autogen": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "supabase": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
     "cursor": {
       "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "huggingface": {
-      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -59,22 +64,22 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 58,
+      "thisWeek": 53,
       "lastWeek": 2,
-      "delta": 2800
+      "delta": 2550
     },
     "evals": {
-      "thisWeek": 26,
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 18,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 28,
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
@@ -84,24 +89,24 @@
       "delta": 3700
     },
     "pricing": {
-      "thisWeek": 25,
+      "thisWeek": 23,
       "lastWeek": 1,
-      "delta": 2400
-    },
-    "voice": {
-      "thisWeek": 15,
-      "lastWeek": 0,
-      "delta": 100
+      "delta": 2200
     },
     "safety": {
       "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
+    "voice": {
+      "thisWeek": 12,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "vision": {
-      "thisWeek": 17,
+      "thisWeek": 16,
       "lastWeek": 1,
-      "delta": 1600
+      "delta": 1500
     },
     "fine-tuning": {
       "thisWeek": 4,
@@ -109,7 +114,7 @@
       "delta": 100
     },
     "embeddings": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     }
