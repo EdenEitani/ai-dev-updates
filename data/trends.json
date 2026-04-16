@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-16T09:12:26.350Z",
+  "updatedAt": "2026-04-16T10:57:02.083Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -26,12 +26,12 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
-      "thisWeek": 3,
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -59,7 +59,17 @@
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 9,
+      "thisWeek": 10,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "agents": {
+      "thisWeek": 62,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "pricing": {
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
@@ -68,38 +78,28 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "agents": {
-      "thisWeek": 57,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 28,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "latency": {
       "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
-    "pricing": {
-      "thisWeek": 16,
+    "evals": {
+      "thisWeek": 34,
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 32,
+    "rag": {
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
     "embeddings": {
-      "thisWeek": 2,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 15,
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     }
