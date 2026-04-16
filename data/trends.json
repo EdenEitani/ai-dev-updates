@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-16T22:33:53.002Z",
+  "updatedAt": "2026-04-16T23:34:56.688Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -8,6 +8,11 @@
     },
     "claude-code": {
       "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -22,11 +27,6 @@
       "delta": 100
     },
     "langchain": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -59,27 +59,27 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 28,
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 27,
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 23,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 37,
+      "thisWeek": 22,
       "lastWeek": 0,
       "delta": 100
     },
     "embeddings": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 37,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,7 +99,7 @@
       "delta": 100
     },
     "safety": {
-      "thisWeek": 12,
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     }
