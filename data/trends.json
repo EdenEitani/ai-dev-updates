@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17T10:09:06.633Z",
+  "updatedAt": "2026-04-17T11:44:49.053Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -59,7 +59,7 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 55,
+      "thisWeek": 54,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,12 +69,17 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 54,
+      "thisWeek": 56,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 37,
+      "thisWeek": 34,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,28 +88,23 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "embeddings": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "pricing": {
       "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 21,
+    "latency": {
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
       "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 22,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "embeddings": {
-      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     }
