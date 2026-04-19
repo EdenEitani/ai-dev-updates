@@ -1,18 +1,13 @@
 {
-  "updatedAt": "2026-04-19T17:30:35.165Z",
+  "updatedAt": "2026-04-19T18:39:05.603Z",
   "tools": {
     "anthropic": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 3,
+      "lastWeek": 1,
+      "delta": 200
     },
     "claude-code": {
       "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "llama": {
-      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -25,6 +20,11 @@
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
+    },
+    "llama": {
+      "thisWeek": 3,
+      "lastWeek": 1,
+      "delta": 200
     },
     "langchain": {
       "thisWeek": 4,
@@ -44,27 +44,32 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 57,
+      "thisWeek": 58,
+      "lastWeek": 1,
+      "delta": 5700
+    },
+    "rag": {
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 17,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 33,
+    "infra": {
+      "thisWeek": 49,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 15,
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 23,
+    "pricing": {
+      "thisWeek": 19,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "voice": {
+      "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,23 +78,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 48,
-      "lastWeek": 0,
-      "delta": 100
+    "latency": {
+      "thisWeek": 17,
+      "lastWeek": 1,
+      "delta": 1600
     },
-    "voice": {
-      "thisWeek": 7,
-      "lastWeek": 0,
-      "delta": 100
+    "evals": {
+      "thisWeek": 33,
+      "lastWeek": 1,
+      "delta": 3200
     },
     "vision": {
-      "thisWeek": 22,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 20,
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
