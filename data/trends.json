@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-19T07:10:29.351Z",
+  "updatedAt": "2026-04-19T08:45:04.861Z",
   "tools": {
     "anthropic": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 3,
+      "lastWeek": 1,
+      "delta": 200
     },
     "claude-code": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -27,12 +27,12 @@
       "delta": 100
     },
     "llama": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 3,
+      "lastWeek": 1,
+      "delta": 200
     },
     "huggingface": {
-      "thisWeek": 3,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -44,32 +44,22 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 51,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 53,
+      "lastWeek": 1,
+      "delta": 5200
     },
     "latency": {
       "thisWeek": 21,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 27,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 16,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 53,
-      "lastWeek": 0,
-      "delta": 100
+      "lastWeek": 1,
+      "delta": 2000
     },
     "embeddings": {
-      "thisWeek": 5,
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "fine-tuning": {
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     },
@@ -78,23 +68,33 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "fine-tuning": {
-      "thisWeek": 7,
+    "infra": {
+      "thisWeek": 48,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 25,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 24,
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 33,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 30,
+      "lastWeek": 1,
+      "delta": 2900
     },
     "pricing": {
-      "thisWeek": 18,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     }
