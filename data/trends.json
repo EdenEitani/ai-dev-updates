@@ -1,13 +1,18 @@
 {
-  "updatedAt": "2026-04-19T18:39:05.603Z",
+  "updatedAt": "2026-04-19T19:37:37.671Z",
   "tools": {
     "anthropic": {
-      "thisWeek": 3,
-      "lastWeek": 1,
-      "delta": 200
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
     },
     "claude-code": {
       "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "langchain": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -23,11 +28,6 @@
     },
     "llama": {
       "thisWeek": 3,
-      "lastWeek": 1,
-      "delta": 200
-    },
-    "langchain": {
-      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -44,32 +44,17 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 58,
-      "lastWeek": 1,
-      "delta": 5700
-    },
-    "rag": {
-      "thisWeek": 24,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 49,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 16,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 19,
+      "thisWeek": 57,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
       "thisWeek": 6,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 50,
       "lastWeek": 0,
       "delta": 100
     },
@@ -80,16 +65,31 @@
     },
     "latency": {
       "thisWeek": 17,
-      "lastWeek": 1,
-      "delta": 1600
+      "lastWeek": 0,
+      "delta": 100
     },
     "evals": {
-      "thisWeek": 33,
-      "lastWeek": 1,
-      "delta": 3200
+      "thisWeek": 35,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 24,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 16,
+      "lastWeek": 0,
+      "delta": 100
     },
     "vision": {
-      "thisWeek": 21,
+      "thisWeek": 19,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "pricing": {
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
