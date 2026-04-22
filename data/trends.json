@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-22T10:15:40.500Z",
+  "updatedAt": "2026-04-22T11:56:10.433Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -36,6 +36,11 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "litellm": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "vercel-ai-sdk": {
       "thisWeek": 3,
       "lastWeek": 0,
@@ -69,7 +74,7 @@
       "delta": 100
     },
     "rag": {
-      "thisWeek": 17,
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
@@ -79,7 +84,17 @@
       "delta": 100
     },
     "evals": {
-      "thisWeek": 38,
+      "thisWeek": 40,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 15,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 48,
       "lastWeek": 0,
       "delta": 100
     },
@@ -94,21 +109,11 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 8,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 49,
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 14,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
       "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
