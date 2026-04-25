@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T12:47:45.658Z",
+  "updatedAt": "2026-04-25T14:00:28.559Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -16,8 +16,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 2,
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -31,6 +31,16 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "litellm": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "autogen": {
       "thisWeek": 1,
       "lastWeek": 0,
@@ -40,61 +50,46 @@
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
-    },
-    "llama": {
-      "thisWeek": 3,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "litellm": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "instructor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
-    "agents": {
-      "thisWeek": 54,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 19,
+    "evals": {
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 50,
+      "thisWeek": 47,
       "lastWeek": 1,
-      "delta": 4900
+      "delta": 4600
+    },
+    "pricing": {
+      "thisWeek": 21,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "agents": {
+      "thisWeek": 53,
+      "lastWeek": 0,
+      "delta": 100
     },
     "safety": {
-      "thisWeek": 17,
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 36,
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 11,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 29,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 20,
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
