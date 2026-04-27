@@ -1,23 +1,18 @@
 {
-  "updatedAt": "2026-04-27T20:55:47.350Z",
+  "updatedAt": "2026-04-27T21:50:35.086Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vercel-ai-sdk": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "anthropic": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "replit": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -27,7 +22,12 @@
       "delta": 100
     },
     "copilot": {
-      "thisWeek": 3,
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -54,17 +54,17 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 58,
+      "thisWeek": 60,
       "lastWeek": 1,
-      "delta": 5700
+      "delta": 5900
     },
     "infra": {
-      "thisWeek": 36,
+      "thisWeek": 38,
       "lastWeek": 1,
-      "delta": 3500
+      "delta": 3700
     },
     "pricing": {
-      "thisWeek": 18,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,23 +73,23 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "latency": {
+      "thisWeek": 16,
+      "lastWeek": 1,
+      "delta": 1500
+    },
     "safety": {
       "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 6,
+      "thisWeek": 5,
       "lastWeek": 1,
-      "delta": 500
-    },
-    "vision": {
-      "thisWeek": 15,
-      "lastWeek": 0,
-      "delta": 100
+      "delta": 400
     },
     "evals": {
-      "thisWeek": 32,
+      "thisWeek": 31,
       "lastWeek": 0,
       "delta": 100
     },
@@ -98,10 +98,10 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
+    "vision": {
       "thisWeek": 14,
-      "lastWeek": 1,
-      "delta": 1300
+      "lastWeek": 0,
+      "delta": 100
     },
     "embeddings": {
       "thisWeek": 2,
