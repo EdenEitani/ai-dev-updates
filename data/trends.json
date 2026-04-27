@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T19:08:24.371Z",
+  "updatedAt": "2026-04-27T20:55:47.350Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -11,13 +11,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "vercel-ai-sdk": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -48,8 +53,28 @@
     }
   },
   "topics": {
+    "agents": {
+      "thisWeek": 58,
+      "lastWeek": 1,
+      "delta": 5700
+    },
+    "infra": {
+      "thisWeek": 36,
+      "lastWeek": 1,
+      "delta": 3500
+    },
     "pricing": {
       "thisWeek": 18,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 26,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     },
@@ -58,45 +83,25 @@
       "lastWeek": 1,
       "delta": 500
     },
-    "latency": {
+    "vision": {
       "thisWeek": 15,
-      "lastWeek": 1,
-      "delta": 1400
-    },
-    "agents": {
-      "thisWeek": 57,
-      "lastWeek": 1,
-      "delta": 5600
+      "lastWeek": 0,
+      "delta": 100
     },
     "evals": {
-      "thisWeek": 34,
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
-    },
-    "infra": {
-      "thisWeek": 35,
-      "lastWeek": 1,
-      "delta": 3400
     },
     "fine-tuning": {
-      "thisWeek": 4,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 13,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 8,
-      "lastWeek": 0,
-      "delta": 100
+    "latency": {
+      "thisWeek": 14,
+      "lastWeek": 1,
+      "delta": 1300
     },
     "embeddings": {
       "thisWeek": 2,
