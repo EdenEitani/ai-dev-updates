@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-04-28T19:24:52.929Z",
+  "updatedAt": "2026-04-28T21:02:21.966Z",
   "tools": {
+    "openai": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "langchain": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -11,13 +21,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
-      "thisWeek": 1,
+    "huggingface": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -26,23 +31,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
-      "thisWeek": 3,
+    "copilot": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "lovable": {
       "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "copilot": {
-      "thisWeek": 3,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "langchain": {
-      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -74,32 +69,27 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 59,
+      "thisWeek": 58,
       "lastWeek": 1,
-      "delta": 5800
+      "delta": 5700
+    },
+    "infra": {
+      "thisWeek": 37,
+      "lastWeek": 1,
+      "delta": 3600
     },
     "pricing": {
-      "thisWeek": 18,
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 36,
-      "lastWeek": 1,
-      "delta": 3500
-    },
-    "latency": {
-      "thisWeek": 11,
-      "lastWeek": 1,
-      "delta": 1000
-    },
     "evals": {
-      "thisWeek": 26,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 17,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
@@ -108,15 +98,15 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "latency": {
+      "thisWeek": 11,
+      "lastWeek": 1,
+      "delta": 1000
+    },
     "rag": {
-      "thisWeek": 24,
+      "thisWeek": 27,
       "lastWeek": 0,
       "delta": 100
-    },
-    "voice": {
-      "thisWeek": 6,
-      "lastWeek": 1,
-      "delta": 500
     },
     "embeddings": {
       "thisWeek": 3,
@@ -127,6 +117,11 @@
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
+    },
+    "voice": {
+      "thisWeek": 7,
+      "lastWeek": 1,
+      "delta": 600
     }
   }
 }
