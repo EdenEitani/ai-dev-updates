@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T12:13:11.125Z",
+  "updatedAt": "2026-04-29T15:06:41.799Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -16,6 +16,11 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "claude-code": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "langchain": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -26,11 +31,6 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -38,6 +38,11 @@
     },
     "huggingface": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -59,9 +64,9 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 53,
+      "thisWeek": 51,
       "lastWeek": 1,
-      "delta": 5200
+      "delta": 5000
     },
     "pricing": {
       "thisWeek": 20,
@@ -69,12 +74,12 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 38,
+      "thisWeek": 35,
       "lastWeek": 1,
-      "delta": 3700
+      "delta": 3400
     },
     "rag": {
-      "thisWeek": 27,
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,23 +88,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 20,
-      "lastWeek": 1,
-      "delta": 1900
-    },
     "evals": {
       "thisWeek": 33,
       "lastWeek": 0,
       "delta": 100
     },
-    "embeddings": {
-      "thisWeek": 3,
-      "lastWeek": 0,
-      "delta": 100
+    "latency": {
+      "thisWeek": 21,
+      "lastWeek": 1,
+      "delta": 2000
     },
     "vision": {
-      "thisWeek": 16,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
@@ -109,9 +109,14 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 6,
+      "thisWeek": 4,
       "lastWeek": 1,
-      "delta": 500
+      "delta": 300
+    },
+    "embeddings": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
     }
   }
 }
