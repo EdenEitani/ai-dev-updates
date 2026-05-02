@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T07:23:16.575Z",
+  "updatedAt": "2026-05-02T08:59:43.334Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -54,32 +54,32 @@
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 22,
+      "thisWeek": 20,
       "lastWeek": 1,
-      "delta": 2100
+      "delta": 1900
     },
-    "latency": {
-      "thisWeek": 25,
+    "rag": {
+      "thisWeek": 32,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
-      "thisWeek": 53,
+      "thisWeek": 54,
+      "lastWeek": 1,
+      "delta": 5300
+    },
+    "latency": {
+      "thisWeek": 27,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
       "thisWeek": 17,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 30,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
