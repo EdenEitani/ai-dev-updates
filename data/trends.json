@@ -1,22 +1,17 @@
 {
-  "updatedAt": "2026-05-04T08:30:20.118Z",
+  "updatedAt": "2026-05-04T11:00:18.690Z",
   "tools": {
-    "anthropic": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "claude-code": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "openai": {
       "thisWeek": 3,
       "lastWeek": 1,
       "delta": 200
     },
     "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -31,6 +26,11 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "claude-code": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "cursor": {
       "thisWeek": 2,
       "lastWeek": 0,
@@ -38,13 +38,18 @@
     },
     "huggingface": {
       "thisWeek": 2,
-      "lastWeek": 0,
+      "lastWeek": 1,
       "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 63,
+      "thisWeek": 62,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 31,
       "lastWeek": 0,
       "delta": 100
     },
@@ -53,18 +58,8 @@
       "lastWeek": 1,
       "delta": 2400
     },
-    "evals": {
-      "thisWeek": 31,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 29,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "voice": {
-      "thisWeek": 5,
+      "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,13 +68,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "infra": {
+      "thisWeek": 41,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "latency": {
       "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 42,
+    "rag": {
+      "thisWeek": 27,
       "lastWeek": 0,
       "delta": 100
     },
@@ -89,7 +89,7 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 18,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
