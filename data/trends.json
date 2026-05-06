@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-05T23:42:38.341Z",
+  "updatedAt": "2026-05-06T02:10:17.547Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -12,7 +12,7 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -26,13 +26,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "windsurf": {
-      "thisWeek": 1,
+    "llama": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 2,
+    "windsurf": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -53,52 +53,52 @@
     }
   },
   "topics": {
-    "vision": {
-      "thisWeek": 20,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 14,
-      "lastWeek": 1,
-      "delta": 1300
-    },
-    "latency": {
-      "thisWeek": 18,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "agents": {
-      "thisWeek": 46,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 24,
+    "evals": {
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 33,
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
-    "fine-tuning": {
-      "thisWeek": 7,
+    "vision": {
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 34,
+    "pricing": {
+      "thisWeek": 12,
+      "lastWeek": 1,
+      "delta": 1100
+    },
+    "rag": {
+      "thisWeek": 21,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 20,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "agents": {
+      "thisWeek": 48,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 13,
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
+      "thisWeek": 7,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "fine-tuning": {
       "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
