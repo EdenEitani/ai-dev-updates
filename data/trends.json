@@ -1,11 +1,6 @@
 {
-  "updatedAt": "2026-05-06T05:51:29.728Z",
+  "updatedAt": "2026-05-06T08:13:08.972Z",
   "tools": {
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -16,13 +11,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
+    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 3,
+    "langchain": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -36,15 +31,20 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "llama": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "huggingface": {
       "thisWeek": 1,
-      "lastWeek": 1,
-      "delta": 0
+      "lastWeek": 0,
+      "delta": 100
     },
     "cursor": {
       "thisWeek": 1,
-      "lastWeek": 1,
-      "delta": 0
+      "lastWeek": 0,
+      "delta": 100
     },
     "copilot": {
       "thisWeek": 1,
@@ -53,43 +53,43 @@
     }
   },
   "topics": {
-    "evals": {
-      "thisWeek": 33,
+    "agents": {
+      "thisWeek": 45,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 15,
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
       "thisWeek": 16,
-      "lastWeek": 2,
-      "delta": 700
+      "lastWeek": 1,
+      "delta": 1500
     },
-    "infra": {
-      "thisWeek": 30,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "agents": {
-      "thisWeek": 45,
-      "lastWeek": 2,
-      "delta": 2150
-    },
-    "latency": {
-      "thisWeek": 17,
+    "voice": {
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
       "thisWeek": 21,
-      "lastWeek": 1,
-      "delta": 2000
+      "lastWeek": 0,
+      "delta": 100
     },
-    "fine-tuning": {
-      "thisWeek": 4,
+    "evals": {
+      "thisWeek": 34,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 29,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
@@ -98,8 +98,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 8,
+    "fine-tuning": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
