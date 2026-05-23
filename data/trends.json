@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T11:56:52.711Z",
+  "updatedAt": "2026-05-23T13:17:07.903Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -55,16 +55,6 @@
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
-    },
-    "claude-code": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "dspy": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
@@ -79,12 +69,12 @@
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 22,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 18,
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
@@ -98,18 +88,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "infra": {
+      "thisWeek": 56,
+      "lastWeek": 1,
+      "delta": 5500
+    },
     "vision": {
       "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 58,
-      "lastWeek": 1,
-      "delta": 5700
-    },
     "safety": {
-      "thisWeek": 16,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
@@ -119,7 +109,7 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 5,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     }
