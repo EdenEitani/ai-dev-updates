@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-05-24T19:07:22.022Z",
+  "updatedAt": "2026-05-24T20:46:05.044Z",
   "tools": {
-    "anthropic": {
+    "llama": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "huggingface": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "aider": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "continue": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -11,8 +31,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 2,
+    "crewai": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "anthropic": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -22,21 +47,6 @@
       "delta": 100
     },
     "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "aider": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "continue": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "huggingface": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -53,15 +63,20 @@
     }
   },
   "topics": {
-    "voice": {
-      "thisWeek": 6,
+    "agents": {
+      "thisWeek": 83,
+      "lastWeek": 1,
+      "delta": 8200
+    },
+    "pricing": {
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
-    "agents": {
-      "thisWeek": 81,
-      "lastWeek": 1,
-      "delta": 8000
+    "voice": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
     },
     "rag": {
       "thisWeek": 19,
@@ -74,14 +89,9 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 51,
+      "thisWeek": 52,
       "lastWeek": 1,
-      "delta": 5000
-    },
-    "pricing": {
-      "thisWeek": 15,
-      "lastWeek": 0,
-      "delta": 100
+      "delta": 5100
     },
     "safety": {
       "thisWeek": 10,
@@ -89,12 +99,12 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 26,
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 10,
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     },
