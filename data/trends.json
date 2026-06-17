@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T02:59:02.406Z",
+  "updatedAt": "2026-06-17T08:30:07.386Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -21,18 +21,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "huggingface": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
-      "thisWeek": 4,
+    "llama": {
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -45,56 +40,61 @@
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
+    },
+    "langchain": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
     }
   },
   "topics": {
-    "agents": {
-      "thisWeek": 53,
-      "lastWeek": 1,
-      "delta": 5200
-    },
-    "infra": {
-      "thisWeek": 49,
+    "evals": {
+      "thisWeek": 36,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 25,
+      "thisWeek": 23,
       "lastWeek": 0,
       "delta": 100
+    },
+    "agents": {
+      "thisWeek": 51,
+      "lastWeek": 1,
+      "delta": 5000
     },
     "rag": {
-      "thisWeek": 9,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "voice": {
-      "thisWeek": 5,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 17,
-      "lastWeek": 1,
-      "delta": 1600
-    },
-    "latency": {
       "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
-    "safety": {
+    "voice": {
       "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 32,
+    "vision": {
+      "thisWeek": 22,
+      "lastWeek": 1,
+      "delta": 2100
+    },
+    "infra": {
+      "thisWeek": 50,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 17,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 6,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     }
