@@ -1,17 +1,7 @@
 {
-  "updatedAt": "2026-06-18T20:21:42.567Z",
+  "updatedAt": "2026-06-18T22:53:03.864Z",
   "tools": {
     "vercel-ai-sdk": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "langchain": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -21,32 +11,27 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
+    "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
+    "langchain": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
     "llama": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 1,
+    "huggingface": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "cursor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "lovable": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -58,13 +43,18 @@
     }
   },
   "topics": {
-    "vision": {
-      "thisWeek": 25,
+    "agents": {
+      "thisWeek": 54,
+      "lastWeek": 2,
+      "delta": 2600
+    },
+    "evals": {
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
-    "safety": {
-      "thisWeek": 8,
+    "vision": {
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,28 +63,23 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "agents": {
-      "thisWeek": 50,
-      "lastWeek": 2,
-      "delta": 2400
-    },
     "latency": {
-      "thisWeek": 16,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 50,
+      "thisWeek": 54,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 10,
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 29,
+    "safety": {
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     },
