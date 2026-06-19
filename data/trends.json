@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T19:29:59.836Z",
+  "updatedAt": "2026-06-19T21:03:39.922Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -16,13 +16,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "litellm": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "huggingface": {
-      "thisWeek": 3,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -36,17 +31,22 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "llama": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "copilot": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 3,
+    "instructor": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "instructor": {
+    "litellm": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -59,27 +59,12 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 68,
+      "thisWeek": 69,
       "lastWeek": 2,
-      "delta": 3300
+      "delta": 3350
     },
     "pricing": {
       "thisWeek": 20,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 31,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 18,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
@@ -88,8 +73,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
+    "rag": {
+      "thisWeek": 18,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
       "thisWeek": 16,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
@@ -99,7 +94,12 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 6,
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
