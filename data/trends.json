@@ -1,16 +1,6 @@
 {
-  "updatedAt": "2026-06-26T23:58:55.792Z",
+  "updatedAt": "2026-06-27T03:36:56.440Z",
   "tools": {
-    "vercel-ai-sdk": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -22,7 +12,22 @@
       "delta": 100
     },
     "claude-code": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "v0": {
       "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "openai": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -32,7 +37,7 @@
       "delta": 100
     },
     "autogen": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -54,22 +59,32 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 58,
+      "thisWeek": 63,
       "lastWeek": 1,
-      "delta": 5700
+      "delta": 6200
     },
     "pricing": {
-      "thisWeek": 21,
+      "thisWeek": 26,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 55,
+      "thisWeek": 54,
       "lastWeek": 1,
-      "delta": 5400
+      "delta": 5300
+    },
+    "voice": {
+      "thisWeek": 11,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 19,
+      "lastWeek": 1,
+      "delta": 1800
     },
     "rag": {
-      "thisWeek": 23,
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
@@ -78,13 +93,13 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "fine-tuning": {
-      "thisWeek": 4,
+    "latency": {
+      "thisWeek": 22,
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 8,
+    "fine-tuning": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -92,16 +107,6 @@
       "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
-    },
-    "latency": {
-      "thisWeek": 21,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 21,
-      "lastWeek": 1,
-      "delta": 2000
     },
     "embeddings": {
       "thisWeek": 3,
