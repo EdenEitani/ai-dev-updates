@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T15:36:35.506Z",
+  "updatedAt": "2026-07-01T17:48:51.648Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -11,12 +11,12 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "anthropic": {
+    "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -36,13 +36,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "base44": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "cursor": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -50,31 +45,51 @@
       "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
+    },
+    "base44": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 61,
+      "thisWeek": 64,
       "lastWeek": 1,
-      "delta": 6000
+      "delta": 6300
     },
     "evals": {
-      "thisWeek": 32,
+      "thisWeek": 35,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 20,
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 19,
+      "thisWeek": 21,
       "lastWeek": 1,
-      "delta": 1800
+      "delta": 2000
     },
     "pricing": {
-      "thisWeek": 18,
+      "thisWeek": 21,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 35,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 15,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,23 +98,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "safety": {
-      "thisWeek": 8,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 13,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "fine-tuning": {
       "thisWeek": 6,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 34,
       "lastWeek": 0,
       "delta": 100
     },
