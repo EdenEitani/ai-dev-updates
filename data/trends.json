@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T22:41:44.784Z",
+  "updatedAt": "2026-07-17T23:45:45.315Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -36,11 +36,6 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "devin": {
       "thisWeek": 1,
       "lastWeek": 0,
@@ -49,14 +44,19 @@
   },
   "topics": {
     "evals": {
-      "thisWeek": 38,
+      "thisWeek": 37,
       "lastWeek": 1,
-      "delta": 3700
+      "delta": 3600
     },
     "agents": {
-      "thisWeek": 49,
+      "thisWeek": 50,
       "lastWeek": 1,
-      "delta": 4800
+      "delta": 4900
+    },
+    "safety": {
+      "thisWeek": 10,
+      "lastWeek": 0,
+      "delta": 100
     },
     "fine-tuning": {
       "thisWeek": 5,
@@ -74,22 +74,17 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 44,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 27,
+      "thisWeek": 46,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 21,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
-    "safety": {
-      "thisWeek": 9,
+    "pricing": {
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
