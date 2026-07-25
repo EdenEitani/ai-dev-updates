@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-25T11:04:15.645Z",
+  "updatedAt": "2026-07-25T13:08:37.763Z",
   "tools": {
     "anthropic": {
-      "thisWeek": 3,
-      "lastWeek": 1,
-      "delta": 200
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
     },
     "openai": {
       "thisWeek": 4,
@@ -36,11 +36,6 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "autogen": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "copilot": {
       "thisWeek": 1,
       "lastWeek": 0,
@@ -53,54 +48,54 @@
     }
   },
   "topics": {
-    "evals": {
-      "thisWeek": 43,
-      "lastWeek": 1,
-      "delta": 4200
-    },
-    "pricing": {
-      "thisWeek": 27,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 17,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "agents": {
-      "thisWeek": 67,
+      "thisWeek": 62,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 20,
+      "thisWeek": 21,
       "lastWeek": 1,
-      "delta": 1900
+      "delta": 2000
     },
-    "infra": {
-      "thisWeek": 40,
+    "evals": {
+      "thisWeek": 42,
       "lastWeek": 0,
       "delta": 100
     },
-    "fine-tuning": {
-      "thisWeek": 11,
+    "pricing": {
+      "thisWeek": 26,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "infra": {
+      "thisWeek": 38,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 12,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 3,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 2,
+      "thisWeek": 4,
       "lastWeek": 1,
+      "delta": 300
+    },
+    "latency": {
+      "thisWeek": 18,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "fine-tuning": {
+      "thisWeek": 9,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 5,
+      "lastWeek": 0,
       "delta": 100
     },
     "embeddings": {
