@@ -1,27 +1,22 @@
 {
-  "updatedAt": "2026-07-25T22:46:15.063Z",
+  "updatedAt": "2026-07-25T23:54:17.446Z",
   "tools": {
     "anthropic": {
       "thisWeek": 3,
       "lastWeek": 1,
       "delta": 200
     },
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "huggingface": {
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
+    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -31,13 +26,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "copilot": {
-      "thisWeek": 1,
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "cursor": {
       "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     }
@@ -48,23 +48,23 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 41,
+    "vision": {
+      "thisWeek": 24,
       "lastWeek": 1,
-      "delta": 4000
+      "delta": 2300
+    },
+    "evals": {
+      "thisWeek": 42,
+      "lastWeek": 1,
+      "delta": 4100
     },
     "pricing": {
-      "thisWeek": 27,
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 22,
-      "lastWeek": 1,
-      "delta": 2100
-    },
     "rag": {
-      "thisWeek": 17,
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
@@ -74,18 +74,18 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 18,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 5,
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 2,
+      "thisWeek": 3,
       "lastWeek": 1,
+      "delta": 200
+    },
+    "safety": {
+      "thisWeek": 5,
+      "lastWeek": 0,
       "delta": 100
     },
     "embeddings": {
