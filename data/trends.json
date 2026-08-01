@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-01T17:57:49.522Z",
+  "updatedAt": "2026-08-01T18:59:30.029Z",
   "tools": {
     "huggingface": {
-      "thisWeek": 2,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -16,12 +16,17 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
+    "claude-code": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -33,11 +38,6 @@
     },
     "cursor": {
       "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "claude-code": {
-      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,9 +69,9 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 58,
+      "thisWeek": 55,
       "lastWeek": 1,
-      "delta": 5700
+      "delta": 5400
     },
     "infra": {
       "thisWeek": 48,
@@ -79,22 +79,27 @@
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 23,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 40,
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 19,
+      "thisWeek": 17,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 39,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 5,
+      "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
@@ -103,18 +108,13 @@
       "lastWeek": 1,
       "delta": 1700
     },
-    "latency": {
-      "thisWeek": 19,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "safety": {
       "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 6,
+      "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     },
