@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T22:48:44.337Z",
+  "updatedAt": "2026-08-02T23:53:06.541Z",
   "tools": {
     "huggingface": {
       "thisWeek": 3,
@@ -50,41 +50,41 @@
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
-    },
-    "cursor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 54,
+      "thisWeek": 51,
       "lastWeek": 1,
-      "delta": 5300
+      "delta": 5000
     },
     "infra": {
-      "thisWeek": 47,
+      "thisWeek": 45,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 26,
-      "lastWeek": 1,
-      "delta": 2500
+      "thisWeek": 23,
+      "lastWeek": 0,
+      "delta": 100
     },
     "voice": {
       "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     },
+    "rag": {
+      "thisWeek": 16,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "evals": {
-      "thisWeek": 38,
+      "thisWeek": 37,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 22,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
@@ -95,11 +95,6 @@
     },
     "safety": {
       "thisWeek": 8,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
