@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T22:27:40.871Z",
+  "updatedAt": "2026-08-07T23:27:32.849Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -22,7 +22,7 @@
       "delta": 100
     },
     "langchain": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -41,11 +41,6 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "crewai": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "litellm": {
       "thisWeek": 1,
       "lastWeek": 0,
@@ -54,17 +49,17 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 70,
+      "thisWeek": 66,
       "lastWeek": 1,
-      "delta": 6900
+      "delta": 6500
     },
     "vision": {
-      "thisWeek": 30,
+      "thisWeek": 33,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 41,
+      "thisWeek": 43,
       "lastWeek": 0,
       "delta": 100
     },
@@ -79,27 +74,27 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 11,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 30,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 32,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
       "thisWeek": 10,
       "lastWeek": 0,
       "delta": 100
     },
+    "latency": {
+      "thisWeek": 29,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 31,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 9,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "fine-tuning": {
-      "thisWeek": 7,
+      "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
