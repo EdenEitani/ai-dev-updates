@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T11:40:01.154Z",
+  "updatedAt": "2026-08-07T12:45:43.900Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -26,12 +26,12 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "litellm": {
-      "thisWeek": 2,
+    "cursor": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "cursor": {
+    "litellm": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -49,12 +49,12 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 69,
+      "thisWeek": 63,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 42,
+      "thisWeek": 40,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,33 +73,33 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 27,
+    "embeddings": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 43,
+      "thisWeek": 41,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 20,
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 10,
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 8,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "embeddings": {
-      "thisWeek": 1,
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     }
