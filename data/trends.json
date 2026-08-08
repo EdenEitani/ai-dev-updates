@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T14:25:10.509Z",
+  "updatedAt": "2026-08-08T15:22:16.849Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -26,13 +26,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "langchain": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "langchain": {
-      "thisWeek": 2,
+    "v0": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,12 +74,12 @@
   },
   "topics": {
     "evals": {
-      "thisWeek": 29,
+      "thisWeek": 33,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 29,
+      "thisWeek": 34,
       "lastWeek": 0,
       "delta": 100
     },
@@ -84,24 +89,14 @@
       "delta": 3600
     },
     "infra": {
-      "thisWeek": 43,
+      "thisWeek": 48,
       "lastWeek": 1,
-      "delta": 4200
+      "delta": 4700
     },
     "pricing": {
-      "thisWeek": 25,
+      "thisWeek": 27,
       "lastWeek": 1,
-      "delta": 2400
-    },
-    "rag": {
-      "thisWeek": 19,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "fine-tuning": {
-      "thisWeek": 6,
-      "lastWeek": 0,
-      "delta": 100
+      "delta": 2600
     },
     "voice": {
       "thisWeek": 8,
@@ -109,7 +104,12 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 26,
+      "thisWeek": 28,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
@@ -118,8 +118,13 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "fine-tuning": {
+      "thisWeek": 6,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "safety": {
-      "thisWeek": 10,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     }
