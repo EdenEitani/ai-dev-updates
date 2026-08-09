@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T05:45:55.196Z",
+  "updatedAt": "2026-08-09T06:43:03.686Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -48,11 +48,6 @@
     }
   },
   "topics": {
-    "infra": {
-      "thisWeek": 48,
-      "lastWeek": 1,
-      "delta": 4700
-    },
     "vision": {
       "thisWeek": 30,
       "lastWeek": 0,
@@ -64,27 +59,32 @@
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 26,
+      "thisWeek": 23,
       "lastWeek": 1,
-      "delta": 2500
+      "delta": 2200
     },
     "agents": {
-      "thisWeek": 76,
+      "thisWeek": 77,
       "lastWeek": 3,
-      "delta": 2433
+      "delta": 2467
+    },
+    "infra": {
+      "thisWeek": 47,
+      "lastWeek": 1,
+      "delta": 4600
     },
     "latency": {
-      "thisWeek": 20,
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 29,
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 21,
+      "thisWeek": 22,
       "lastWeek": 0,
       "delta": 100
     },
@@ -94,7 +94,7 @@
       "delta": 100
     },
     "safety": {
-      "thisWeek": 8,
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     },
