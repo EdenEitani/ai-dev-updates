@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-11T21:38:43.222Z",
+  "updatedAt": "2026-08-11T22:34:25.865Z",
   "tools": {
-    "vercel-ai-sdk": {
+    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "openai": {
+    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -32,12 +32,12 @@
       "delta": 100
     },
     "huggingface": {
-      "thisWeek": 3,
-      "lastWeek": 0,
+      "thisWeek": 2,
+      "lastWeek": 1,
       "delta": 100
     },
     "copilot": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -54,19 +54,19 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 86,
+      "thisWeek": 85,
       "lastWeek": 2,
-      "delta": 4200
+      "delta": 4150
     },
     "infra": {
-      "thisWeek": 43,
+      "thisWeek": 44,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 29,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 27,
+      "lastWeek": 1,
+      "delta": 2600
     },
     "pricing": {
       "thisWeek": 26,
@@ -74,32 +74,22 @@
       "delta": 100
     },
     "evals": {
-      "thisWeek": 43,
+      "thisWeek": 47,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "latency": {
-      "thisWeek": 19,
+      "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 11,
+      "thisWeek": 12,
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 10,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 20,
+    "latency": {
+      "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
@@ -107,6 +97,16 @@
       "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
+    },
+    "rag": {
+      "thisWeek": 22,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "voice": {
+      "thisWeek": 9,
+      "lastWeek": 1,
+      "delta": 800
     }
   }
 }
