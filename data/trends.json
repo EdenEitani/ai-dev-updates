@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T17:53:04.048Z",
+  "updatedAt": "2026-08-12T18:52:58.401Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -8,6 +8,11 @@
     },
     "openai": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "v0": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -26,22 +31,27 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "huggingface": {
+    "cursor": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "replit": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
     "langchain": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "crewai": {
+    "copilot": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
-    "cursor": {
+    "huggingface": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -54,27 +64,12 @@
       "delta": 2950
     },
     "infra": {
-      "thisWeek": 55,
+      "thisWeek": 52,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 41,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 15,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 27,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 36,
+      "thisWeek": 38,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,18 +78,33 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "safety": {
-      "thisWeek": 14,
+    "pricing": {
+      "thisWeek": 31,
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 12,
+    "rag": {
+      "thisWeek": 16,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 33,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
       "thisWeek": 6,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "voice": {
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
