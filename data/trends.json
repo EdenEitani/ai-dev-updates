@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T01:18:01.978Z",
+  "updatedAt": "2026-08-12T03:59:28.310Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -22,7 +22,17 @@
       "delta": 100
     },
     "langchain": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
       "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "v0": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -35,21 +45,21 @@
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
-    },
-    "copilot": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
+    "agents": {
+      "thisWeek": 78,
+      "lastWeek": 2,
+      "delta": 3800
+    },
+    "evals": {
+      "thisWeek": 51,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "infra": {
-      "thisWeek": 54,
+      "thisWeek": 52,
       "lastWeek": 0,
       "delta": 100
     },
@@ -59,44 +69,34 @@
       "delta": 100
     },
     "latency": {
-      "thisWeek": 23,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
-    "agents": {
-      "thisWeek": 83,
-      "lastWeek": 2,
-      "delta": 4050
-    },
-    "evals": {
-      "thisWeek": 50,
+    "safety": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "rag": {
-      "thisWeek": 14,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
+    "vision": {
+      "thisWeek": 26,
+      "lastWeek": 1,
+      "delta": 2500
+    },
     "fine-tuning": {
-      "thisWeek": 5,
+      "thisWeek": 6,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 9,
+      "thisWeek": 8,
       "lastWeek": 1,
-      "delta": 800
-    },
-    "vision": {
-      "thisWeek": 27,
-      "lastWeek": 1,
-      "delta": 2600
-    },
-    "safety": {
-      "thisWeek": 12,
-      "lastWeek": 0,
-      "delta": 100
+      "delta": 700
     },
     "embeddings": {
       "thisWeek": 3,
