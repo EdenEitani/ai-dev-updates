@@ -1,12 +1,32 @@
 {
-  "updatedAt": "2026-08-13T23:34:12.832Z",
+  "updatedAt": "2026-08-14T01:19:02.887Z",
   "tools": {
     "huggingface": {
       "thisWeek": 3,
       "lastWeek": 1,
       "delta": 200
     },
+    "openai": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "anthropic": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "claude-code": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "copilot": {
+      "thisWeek": 3,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -16,8 +36,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
-      "thisWeek": 4,
+    "cursor": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -26,18 +46,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
+    "instructor": {
       "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "copilot": {
-      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -48,43 +58,38 @@
     }
   },
   "topics": {
+    "infra": {
+      "thisWeek": 40,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "agents": {
-      "thisWeek": 63,
+      "thisWeek": 67,
       "lastWeek": 4,
-      "delta": 1475
+      "delta": 1575
+    },
+    "latency": {
+      "thisWeek": 23,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 17,
+      "lastWeek": 0,
+      "delta": 100
     },
     "evals": {
-      "thisWeek": 32,
+      "thisWeek": 33,
       "lastWeek": 1,
-      "delta": 3100
+      "delta": 3200
     },
-    "infra": {
-      "thisWeek": 41,
+    "fine-tuning": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 33,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "fine-tuning": {
-      "thisWeek": 10,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "voice": {
-      "thisWeek": 11,
-      "lastWeek": 1,
-      "delta": 1000
-    },
-    "vision": {
-      "thisWeek": 20,
-      "lastWeek": 1,
-      "delta": 1900
-    },
-    "latency": {
-      "thisWeek": 24,
+      "thisWeek": 31,
       "lastWeek": 0,
       "delta": 100
     },
@@ -93,10 +98,15 @@
       "lastWeek": 1,
       "delta": 500
     },
-    "rag": {
-      "thisWeek": 14,
-      "lastWeek": 0,
-      "delta": 100
+    "vision": {
+      "thisWeek": 24,
+      "lastWeek": 1,
+      "delta": 2300
+    },
+    "voice": {
+      "thisWeek": 10,
+      "lastWeek": 1,
+      "delta": 900
     },
     "embeddings": {
       "thisWeek": 1,
