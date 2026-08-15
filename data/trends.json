@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T20:14:20.846Z",
+  "updatedAt": "2026-08-15T21:14:16.571Z",
   "tools": {
     "huggingface": {
       "thisWeek": 3,
@@ -7,11 +7,6 @@
       "delta": 100
     },
     "vercel-ai-sdk": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -31,13 +26,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "openai": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "langchain": {
-      "thisWeek": 3,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "cursor": {
-      "thisWeek": 4,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -55,26 +55,21 @@
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
-    },
-    "lovable": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 83,
+      "thisWeek": 85,
       "lastWeek": 2,
-      "delta": 4050
+      "delta": 4150
     },
     "infra": {
-      "thisWeek": 46,
+      "thisWeek": 45,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 15,
+    "evals": {
+      "thisWeek": 32,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,28 +78,28 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "pricing": {
+      "thisWeek": 31,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 14,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "embeddings": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
+    "vision": {
+      "thisWeek": 20,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "latency": {
       "thisWeek": 17,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
-      "thisWeek": 33,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 31,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
