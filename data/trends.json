@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-16T12:24:43.409Z",
+  "updatedAt": "2026-08-16T13:25:55.231Z",
   "tools": {
     "huggingface": {
-      "thisWeek": 4,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -53,13 +53,8 @@
     }
   },
   "topics": {
-    "agents": {
-      "thisWeek": 75,
-      "lastWeek": 1,
-      "delta": 7400
-    },
     "evals": {
-      "thisWeek": 38,
+      "thisWeek": 35,
       "lastWeek": 0,
       "delta": 100
     },
@@ -69,12 +64,7 @@
       "delta": 100
     },
     "voice": {
-      "thisWeek": 11,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 10,
+      "thisWeek": 12,
       "lastWeek": 0,
       "delta": 100
     },
@@ -84,9 +74,14 @@
       "delta": 100
     },
     "infra": {
-      "thisWeek": 49,
+      "thisWeek": 50,
       "lastWeek": 0,
       "delta": 100
+    },
+    "agents": {
+      "thisWeek": 76,
+      "lastWeek": 1,
+      "delta": 7500
     },
     "vision": {
       "thisWeek": 21,
@@ -94,7 +89,12 @@
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 32,
+      "thisWeek": 31,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
