@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T22:17:19.434Z",
+  "updatedAt": "2026-08-19T23:16:33.920Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -22,7 +22,12 @@
       "delta": 100
     },
     "huggingface": {
-      "thisWeek": 3,
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "cursor": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -32,11 +37,6 @@
       "delta": 100
     },
     "instructor": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
       "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
@@ -59,37 +59,12 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 79,
+      "thisWeek": 78,
       "lastWeek": 1,
-      "delta": 7800
-    },
-    "rag": {
-      "thisWeek": 13,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "vision": {
-      "thisWeek": 26,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 10,
-      "lastWeek": 0,
-      "delta": 100
+      "delta": 7700
     },
     "infra": {
       "thisWeek": 60,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "embeddings": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 30,
       "lastWeek": 0,
       "delta": 100
     },
@@ -98,18 +73,43 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "rag": {
+      "thisWeek": 13,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 27,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 10,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 30,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "latency": {
+      "thisWeek": 19,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "fine-tuning": {
       "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 10,
+    "embeddings": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 20,
+    "voice": {
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     }
