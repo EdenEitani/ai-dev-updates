@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T12:33:14.114Z",
+  "updatedAt": "2026-08-20T13:40:09.640Z",
   "tools": {
     "llama": {
       "thisWeek": 4,
@@ -32,14 +32,19 @@
       "delta": 100
     },
     "langchain": {
-      "thisWeek": 3,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
     "huggingface": {
-      "thisWeek": 3,
-      "lastWeek": 1,
-      "delta": 200
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "aider": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
     },
     "claude-code": {
       "thisWeek": 1,
@@ -69,12 +74,17 @@
       "delta": 100
     },
     "agents": {
-      "thisWeek": 78,
+      "thisWeek": 81,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 60,
+      "thisWeek": 59,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
@@ -88,23 +98,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "evals": {
-      "thisWeek": 28,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "voice": {
-      "thisWeek": 9,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "vision": {
-      "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 7,
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
@@ -114,7 +109,17 @@
       "delta": 100
     },
     "embeddings": {
-      "thisWeek": 4,
+      "thisWeek": 5,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "voice": {
+      "thisWeek": 9,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     }
