@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:31:00.376Z",
+  "updatedAt": "2026-08-21T05:25:46.280Z",
   "tools": {
     "vercel-ai-sdk": {
       "thisWeek": 4,
@@ -16,11 +16,6 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 3,
-      "lastWeek": 1,
-      "delta": 200
-    },
     "cursor": {
       "thisWeek": 2,
       "lastWeek": 0,
@@ -36,12 +31,17 @@
       "lastWeek": 1,
       "delta": 100
     },
-    "supabase": {
-      "thisWeek": 1,
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "copilot": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "supabase": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -54,37 +54,32 @@
   },
   "topics": {
     "rag": {
-      "thisWeek": 23,
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
     "agents": {
       "thisWeek": 73,
-      "lastWeek": 1,
-      "delta": 7200
+      "lastWeek": 0,
+      "delta": 100
     },
     "pricing": {
-      "thisWeek": 25,
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
     "infra": {
-      "thisWeek": 58,
+      "thisWeek": 55,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 27,
-      "lastWeek": 1,
-      "delta": 2600
-    },
-    "latency": {
-      "thisWeek": 25,
+      "thisWeek": 28,
       "lastWeek": 0,
       "delta": 100
     },
-    "embeddings": {
-      "thisWeek": 6,
+    "latency": {
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
     },
@@ -94,17 +89,22 @@
       "delta": 100
     },
     "vision": {
-      "thisWeek": 22,
+      "thisWeek": 23,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "embeddings": {
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 9,
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 8,
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
     }
