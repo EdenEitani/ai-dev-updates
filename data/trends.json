@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T12:34:14.058Z",
+  "updatedAt": "2026-08-24T13:44:26.125Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -12,6 +12,21 @@
       "delta": 100
     },
     "copilot": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "cursor": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "claude-code": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "windsurf": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -21,8 +36,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 3,
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -45,16 +60,6 @@
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
-    },
-    "llama": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "cursor": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
     }
   },
   "topics": {
@@ -64,24 +69,24 @@
       "delta": 100
     },
     "rag": {
-      "thisWeek": 21,
+      "thisWeek": 20,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 38,
+      "thisWeek": 42,
       "lastWeek": 0,
       "delta": 100
     },
     "voice": {
-      "thisWeek": 11,
+      "thisWeek": 13,
       "lastWeek": 0,
       "delta": 100
     },
     "vision": {
-      "thisWeek": 28,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 26,
+      "lastWeek": 1,
+      "delta": 2500
     },
     "infra": {
       "thisWeek": 52,
@@ -89,17 +94,17 @@
       "delta": 100
     },
     "safety": {
-      "thisWeek": 11,
+      "thisWeek": 10,
       "lastWeek": 0,
       "delta": 100
     },
     "evals": {
-      "thisWeek": 33,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 36,
+      "lastWeek": 1,
+      "delta": 3500
     },
     "latency": {
-      "thisWeek": 23,
+      "thisWeek": 22,
       "lastWeek": 0,
       "delta": 100
     },
@@ -109,7 +114,7 @@
       "delta": 100
     },
     "embeddings": {
-      "thisWeek": 5,
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     }
