@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-03T22:06:39.858Z",
+  "updatedAt": "2026-09-04T00:36:17.440Z",
   "tools": {
-    "openai": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "vercel-ai-sdk": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -26,13 +26,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "huggingface": {
-      "thisWeek": 2,
+      "thisWeek": 3,
       "lastWeek": 0,
       "delta": 100
     },
@@ -48,23 +43,28 @@
     }
   },
   "topics": {
+    "agents": {
+      "thisWeek": 43,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 35,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "safety": {
       "thisWeek": 14,
       "lastWeek": 0,
       "delta": 100
     },
-    "agents": {
-      "thisWeek": 42,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 37,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "rag": {
-      "thisWeek": 18,
+      "thisWeek": 20,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "fine-tuning": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,8 +73,13 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "latency": {
+      "thisWeek": 9,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "pricing": {
-      "thisWeek": 17,
+      "thisWeek": 18,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,18 +88,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 8,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "voice": {
       "thisWeek": 5,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "fine-tuning": {
-      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     }
