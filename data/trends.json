@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T17:57:55.775Z",
+  "updatedAt": "2026-09-04T20:18:58.963Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -8,11 +8,6 @@
     },
     "anthropic": {
       "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "claude-code": {
-      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -44,12 +39,12 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 51,
+      "thisWeek": 54,
       "lastWeek": 1,
-      "delta": 5000
+      "delta": 5300
     },
     "evals": {
-      "thisWeek": 41,
+      "thisWeek": 40,
       "lastWeek": 0,
       "delta": 100
     },
@@ -58,33 +53,33 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 17,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "rag": {
-      "thisWeek": 22,
+    "infra": {
+      "thisWeek": 42,
       "lastWeek": 0,
       "delta": 100
     },
     "latency": {
-      "thisWeek": 14,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "pricing": {
       "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 41,
+    "pricing": {
+      "thisWeek": 22,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
       "thisWeek": 6,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
