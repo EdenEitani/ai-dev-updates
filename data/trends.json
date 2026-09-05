@@ -1,18 +1,23 @@
 {
-  "updatedAt": "2026-09-05T20:52:39.297Z",
+  "updatedAt": "2026-09-05T22:33:27.526Z",
   "tools": {
-    "openai": {
+    "vercel-ai-sdk": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
-    "vercel-ai-sdk": {
+    "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "anthropic": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "base44": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -39,22 +44,12 @@
   },
   "topics": {
     "agents": {
-      "thisWeek": 38,
+      "thisWeek": 40,
       "lastWeek": 1,
-      "delta": 3700
+      "delta": 3900
     },
-    "vision": {
-      "thisWeek": 25,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 38,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "voice": {
-      "thisWeek": 8,
+    "rag": {
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
@@ -63,8 +58,23 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "vision": {
+      "thisWeek": 23,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "safety": {
+      "thisWeek": 6,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "infra": {
-      "thisWeek": 44,
+      "thisWeek": 43,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "evals": {
+      "thisWeek": 37,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,23 +83,18 @@
       "lastWeek": 0,
       "delta": 100
     },
+    "voice": {
+      "thisWeek": 8,
+      "lastWeek": 0,
+      "delta": 100
+    },
     "fine-tuning": {
       "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
-    "rag": {
-      "thisWeek": 19,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "embeddings": {
       "thisWeek": 2,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 5,
       "lastWeek": 0,
       "delta": 100
     }
