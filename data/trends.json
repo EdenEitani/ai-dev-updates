@@ -1,11 +1,6 @@
 {
-  "updatedAt": "2026-09-27T14:56:06.602Z",
+  "updatedAt": "2026-09-27T18:51:03.149Z",
   "tools": {
-    "vercel-ai-sdk": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "openai": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -16,8 +11,18 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
+    "vercel-ai-sdk": {
       "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "claude-code": {
+      "thisWeek": 1,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "huggingface": {
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     },
@@ -31,13 +36,8 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "claude-code": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "huggingface": {
-      "thisWeek": 1,
+    "llama": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
@@ -58,23 +58,23 @@
     }
   },
   "topics": {
-    "agents": {
-      "thisWeek": 52,
-      "lastWeek": 1,
-      "delta": 5100
-    },
-    "voice": {
-      "thisWeek": 10,
+    "latency": {
+      "thisWeek": 16,
       "lastWeek": 0,
       "delta": 100
     },
-    "latency": {
-      "thisWeek": 15,
+    "agents": {
+      "thisWeek": 53,
+      "lastWeek": 1,
+      "delta": 5200
+    },
+    "infra": {
+      "thisWeek": 29,
       "lastWeek": 0,
       "delta": 100
     },
     "pricing": {
-      "thisWeek": 12,
+      "thisWeek": 15,
       "lastWeek": 0,
       "delta": 100
     },
@@ -83,23 +83,23 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 29,
+    "evals": {
+      "thisWeek": 19,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 9,
+      "thisWeek": 8,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "voice": {
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 6,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "evals": {
-      "thisWeek": 19,
+      "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
     },
