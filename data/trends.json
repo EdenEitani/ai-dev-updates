@@ -1,11 +1,6 @@
 {
-  "updatedAt": "2026-10-02T22:44:32.208Z",
+  "updatedAt": "2026-10-03T01:37:23.021Z",
   "tools": {
-    "huggingface": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "anthropic": {
       "thisWeek": 4,
       "lastWeek": 0,
@@ -36,55 +31,55 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "cursor": {
-      "thisWeek": 2,
+    "huggingface": {
+      "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
     },
     "copilot": {
-      "thisWeek": 1,
+      "thisWeek": 2,
       "lastWeek": 0,
       "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 56,
+      "thisWeek": 55,
       "lastWeek": 2,
-      "delta": 2700
-    },
-    "rag": {
-      "thisWeek": 14,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "infra": {
-      "thisWeek": 36,
-      "lastWeek": 1,
-      "delta": 3500
+      "delta": 2650
     },
     "latency": {
       "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 20,
+    "voice": {
+      "thisWeek": 12,
       "lastWeek": 1,
-      "delta": 1900
+      "delta": 1100
     },
-    "evals": {
+    "infra": {
       "thisWeek": 36,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "safety": {
-      "thisWeek": 14,
-      "lastWeek": 0,
-      "delta": 100
+      "lastWeek": 1,
+      "delta": 3500
     },
     "pricing": {
-      "thisWeek": 20,
+      "thisWeek": 21,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "rag": {
+      "thisWeek": 12,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "vision": {
+      "thisWeek": 24,
+      "lastWeek": 1,
+      "delta": 2300
+    },
+    "evals": {
+      "thisWeek": 35,
       "lastWeek": 0,
       "delta": 100
     },
@@ -93,10 +88,10 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "voice": {
-      "thisWeek": 11,
-      "lastWeek": 1,
-      "delta": 1000
+    "safety": {
+      "thisWeek": 13,
+      "lastWeek": 0,
+      "delta": 100
     },
     "embeddings": {
       "thisWeek": 2,
