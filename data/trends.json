@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T12:55:46.941Z",
+  "updatedAt": "2026-10-03T16:56:13.685Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -7,11 +7,16 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 3,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
     "openai": {
+      "thisWeek": 4,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -36,35 +41,25 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 4,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "copilot": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 54,
+      "thisWeek": 55,
       "lastWeek": 2,
-      "delta": 2600
+      "delta": 2650
     },
     "latency": {
       "thisWeek": 21,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 35,
-      "lastWeek": 1,
-      "delta": 3400
-    },
-    "evals": {
-      "thisWeek": 34,
+    "rag": {
+      "thisWeek": 17,
       "lastWeek": 0,
       "delta": 100
     },
@@ -73,23 +68,23 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 25,
-      "lastWeek": 1,
-      "delta": 2400
-    },
-    "rag": {
-      "thisWeek": 13,
+    "evals": {
+      "thisWeek": 33,
       "lastWeek": 0,
       "delta": 100
     },
+    "infra": {
+      "thisWeek": 33,
+      "lastWeek": 1,
+      "delta": 3200
+    },
     "fine-tuning": {
-      "thisWeek": 9,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
     "safety": {
-      "thisWeek": 13,
+      "thisWeek": 12,
       "lastWeek": 0,
       "delta": 100
     },
@@ -97,6 +92,11 @@
       "thisWeek": 12,
       "lastWeek": 1,
       "delta": 1100
+    },
+    "vision": {
+      "thisWeek": 24,
+      "lastWeek": 1,
+      "delta": 2300
     },
     "embeddings": {
       "thisWeek": 2,
