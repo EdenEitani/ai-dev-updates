@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T14:00:11.905Z",
+  "updatedAt": "2026-11-08T18:44:30.365Z",
   "tools": {
     "openai": {
       "thisWeek": 4,
@@ -32,7 +32,7 @@
       "delta": 100
     },
     "claude-code": {
-      "thisWeek": 2,
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     },
@@ -46,60 +46,55 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "supabase": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
     "pinecone": {
-      "thisWeek": 1,
-      "lastWeek": 0,
-      "delta": 100
-    },
-    "replit": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     }
   },
   "topics": {
+    "agents": {
+      "thisWeek": 71,
+      "lastWeek": 5,
+      "delta": 1320
+    },
+    "vision": {
+      "thisWeek": 27,
+      "lastWeek": 2,
+      "delta": 1250
+    },
+    "infra": {
+      "thisWeek": 42,
+      "lastWeek": 1,
+      "delta": 4100
+    },
     "evals": {
       "thisWeek": 21,
       "lastWeek": 1,
       "delta": 2000
     },
-    "infra": {
-      "thisWeek": 40,
-      "lastWeek": 1,
-      "delta": 3900
-    },
     "latency": {
-      "thisWeek": 15,
+      "thisWeek": 16,
       "lastWeek": 2,
-      "delta": 650
+      "delta": 700
     },
     "pricing": {
-      "thisWeek": 27,
+      "thisWeek": 25,
       "lastWeek": 0,
       "delta": 100
-    },
-    "agents": {
-      "thisWeek": 69,
-      "lastWeek": 5,
-      "delta": 1280
     },
     "rag": {
-      "thisWeek": 12,
+      "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
-    "vision": {
-      "thisWeek": 24,
-      "lastWeek": 2,
-      "delta": 1100
+    "fine-tuning": {
+      "thisWeek": 5,
+      "lastWeek": 0,
+      "delta": 100
     },
     "voice": {
-      "thisWeek": 7,
+      "thisWeek": 8,
       "lastWeek": 0,
       "delta": 100
     },
@@ -107,11 +102,6 @@
       "thisWeek": 3,
       "lastWeek": 1,
       "delta": 200
-    },
-    "fine-tuning": {
-      "thisWeek": 5,
-      "lastWeek": 0,
-      "delta": 100
     },
     "safety": {
       "thisWeek": 3,
