@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T04:42:15.220Z",
+  "updatedAt": "2026-11-27T14:34:13.711Z",
   "tools": {
     "anthropic": {
       "thisWeek": 4,
@@ -7,6 +7,11 @@
       "delta": 100
     },
     "openai": {
+      "thisWeek": 3,
+      "lastWeek": 1,
+      "delta": 200
+    },
+    "llama": {
       "thisWeek": 4,
       "lastWeek": 0,
       "delta": 100
@@ -22,6 +27,11 @@
       "delta": 100
     },
     "claude-code": {
+      "thisWeek": 2,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "supabase": {
       "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
@@ -36,62 +46,62 @@
       "lastWeek": 0,
       "delta": 100
     },
-    "llama": {
-      "thisWeek": 2,
+    "copilot": {
+      "thisWeek": 1,
       "lastWeek": 0,
       "delta": 100
     }
   },
   "topics": {
     "agents": {
-      "thisWeek": 57,
-      "lastWeek": 9,
-      "delta": 533
-    },
-    "voice": {
-      "thisWeek": 12,
-      "lastWeek": 0,
-      "delta": 100
+      "thisWeek": 56,
+      "lastWeek": 10,
+      "delta": 460
     },
     "vision": {
       "thisWeek": 31,
       "lastWeek": 1,
       "delta": 3000
     },
-    "pricing": {
-      "thisWeek": 22,
+    "infra": {
+      "thisWeek": 34,
       "lastWeek": 0,
       "delta": 100
-    },
-    "evals": {
-      "thisWeek": 29,
-      "lastWeek": 1,
-      "delta": 2800
     },
     "rag": {
       "thisWeek": 11,
       "lastWeek": 0,
       "delta": 100
     },
-    "infra": {
-      "thisWeek": 38,
+    "voice": {
+      "thisWeek": 13,
+      "lastWeek": 0,
+      "delta": 100
+    },
+    "pricing": {
+      "thisWeek": 24,
       "lastWeek": 0,
       "delta": 100
     },
     "fine-tuning": {
-      "thisWeek": 8,
+      "thisWeek": 9,
       "lastWeek": 0,
       "delta": 100
-    },
-    "latency": {
-      "thisWeek": 12,
-      "lastWeek": 2,
-      "delta": 500
     },
     "safety": {
       "thisWeek": 7,
       "lastWeek": 0,
       "delta": 100
+    },
+    "evals": {
+      "thisWeek": 26,
+      "lastWeek": 1,
+      "delta": 2500
+    },
+    "latency": {
+      "thisWeek": 9,
+      "lastWeek": 2,
+      "delta": 350
     }
   }
 }
